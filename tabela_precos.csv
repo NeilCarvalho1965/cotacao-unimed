@@ -1,0 +1,5 @@
+tipo_plano,plano,coparticipacao,abrangencia,acomodacao,faixa_min,faixa_max,valor
+Adesão - PF,Flex,20%,Nacional,Enfermaria,0,18,350,00
+Adesão - PF,Flex,20%,Nacional,Apartamento,0,18,450,00
+Pessoa Física - PF,Amigo,30%,Regional,Enfermaria,19,23,480,50
+Pessoa Jurídica - PME,Smart,40%,Nacional,Apartamento,24,28,550,99

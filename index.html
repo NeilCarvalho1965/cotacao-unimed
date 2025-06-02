@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cotação Unimed Curitiba</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Cotação Unimed Curitiba</h1>
+    <form id="cotacaoForm">
+        <label>Tipo de Plano: <input type="text" name="tipo_plano"></label><br>
+        <label>Plano: <input type="text" name="plano"></label><br>
+        <label>Coparticipação: <input type="text" name="coparticipacao"></label><br>
+        <label>Abrangência: <input type="text" name="abrangencia"></label><br>
+        <h3>Beneficiários</h3>
+        <div id="beneficiarios"></div>
+        <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button><br><br>
+        <button type="button" onclick="gerarCotacao()">Gerar Cotação</button>
+    </form>
+    <br>
+    <button id="copiarImagem" style="display:none;">Copiar Imagem</button>
+    <br>
+    <canvas id="cotacaoImagem" style="border:1px solid #ccc;"></canvas>
+</body>
+</html>
