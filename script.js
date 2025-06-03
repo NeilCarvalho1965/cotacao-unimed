@@ -132,6 +132,8 @@ function tirarPrint() {
         ctx.textAlign = 'center';      // ✅ Centralizado
         ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
 
+        y += 40;  // ✅ Espaço após a proposta para o restante do texto
+
         ctx.textAlign = 'left';  // ✅ Volta para alinhamento à esquerda
         ctx.font = '16px Arial';  // Fonte padrão para o resto do texto
         
