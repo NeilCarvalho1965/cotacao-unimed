@@ -134,7 +134,7 @@ function desenharCotacao() {
         ctx.textAlign = 'center';
         ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
 
-        y += 40;
+        y += 30;
 
         ctx.textAlign = 'left';
         lines.forEach((line, idx) => {
