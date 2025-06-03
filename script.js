@@ -125,8 +125,13 @@ function tirarPrint() {
         const logoHeight = 80;
         ctx.drawImage(img, (canvas.width - logoWidth) / 2, 10, logoWidth, logoHeight);
 
+        let y = 10 + logoHeight + 30;
+
         ctx.fillStyle = '#007d3c';  // ✅ tom verde elegante
-        ctx.font = '16px Arial';
+        ctx.font = '24px Arial';
+        ctx.textAlign = 'center';      // ✅ Centralizado
+        ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
+        
         lines.forEach((line, idx) => {
             if (line.startsWith('Valor Total:')) {
                 ctx.font = 'bold 16px Arial';
