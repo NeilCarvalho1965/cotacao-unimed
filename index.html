@@ -9,14 +9,7 @@
         label { display: block; margin-top: 10px; }
         select, input { width: 100%; padding: 5px; margin-top: 5px; }
         button { margin-top: 10px; padding: 10px; background: #007d3c; color: white; border: none; cursor: pointer; }
-        canvas { display: none; }
-        img { 
-            margin-top: 20px; 
-            border: 1px solid #ccc; 
-            display: none; 
-            max-width: 100%;
-            height: auto;
-        }
+        canvas { margin-top: 20px; border: 1px solid #ccc; display: block; }
     </style>
 </head>
 <body>
@@ -42,11 +35,10 @@
     <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button><br>
 
     <button type="button" onclick="gerarCotacao()">Gerar Cotação</button>
+    <button type="button" onclick="tirarPrint()">Tirar Print</button>
 </form>
 
 <canvas id="cotacaoImagem"></canvas>
-
-<img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
 
 </body>
 </html>
