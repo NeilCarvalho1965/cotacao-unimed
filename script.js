@@ -1,7 +1,7 @@
 let tabelaPrecos = [];
 let ultimaMensagem = '';
 
-fetch('tabela_preços.csv')
+fetch('tabela_precos.csv')
     .then(response => response.text())
     .then(data => {
         tabelaPrecos = parseCSV(data);
