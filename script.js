@@ -1,4 +1,3 @@
-
 let tabelaPrecos = [];
 
 fetch('tabela_precos.csv')
