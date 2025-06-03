@@ -1,17 +1,8 @@
 tipo_plano;plano;coparticipacao;abrangencia;acomodacao;faixa_min;faixa_max;valor
-Ades„o - Genesis;Flex;20%;Regional;Enfermaria;0;18;R$ 350,00
-Ades„o - Genesis;Flex;20%;Regional;Apartamento;0;18;R$ 450,00
-Ades„o - Simepar;Flex;20%;Regional;Enfermaria;0;18;R$ 350,00
-Ades„o - Simepar;Flex;20%;Regional;Apartamento;0;18;R$ 450,00
-Pessoa FÌsica - PF;Amigo;30%;Nacional;Enfermaria;19;23;R$ 480,50
-Pessoa JurÌdica - PME4-;Flex;50%;Regional;Apartamento;24;28;R$ 550,99
-Pessoa JurÌdica - PME5+;Flex;50%;Regional;Apartamento;24;28;R$ 501,35
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
+Ades√£o - Genesis;Flex;20%;Regional;Enfermaria;0;18;R$ 350,00
+Ades√£o - Genesis;Flex;20%;Regional;Apartamento;0;18;R$ 450,00
+Ades√£o - Simepar;Flex;20%;Regional;Enfermaria;0;18;R$ 350,00
+Ades√£o - Simepar;Flex;20%;Regional;Apartamento;0;18;R$ 450,00
+Pessoa F√≠sica - PF;Amigo;30%;Nacional;Enfermaria;19;23;R$ 480,50
+Pessoa Jur√≠dica - PME4-;Flex;50%;Regional;Apartamento;24;28;R$ 550,99
+Pessoa Jur√≠dica - PME5+;Flex;50%;Regional;Apartamento;24;28;R$ 501,35
