@@ -1,7 +1,7 @@
 let tabelaPrecos = [];
 let ultimaMensagem = '';
 
-fetch('tabela_precos.csv')  // ✅ Correção aqui: nome correto do arquivo, sem acento
+fetch('tabela_precos.csv')
     .then(response => response.text())
     .then(data => {
         tabelaPrecos = parseCSV(data);
@@ -41,7 +41,7 @@ function preencherSelect(id, valores) {
 
 function adicionarBeneficiario() {
     const div = document.createElement('div');
-    div.innerHTML = `
+    div.innerHTML = 
         <label>Idade: <input type="number" class="idade"></label>
         <label>Acomodação:
             <select class="acomodacao">
@@ -49,7 +49,7 @@ function adicionarBeneficiario() {
                 <option>Apartamento</option>
             </select>
         </label>
-    `;
+    ;
     document.getElementById('beneficiarios').appendChild(div);
 }
 
@@ -66,7 +66,7 @@ function gerarCotacao() {
         };
     });
 
-    let mensagem = `\n\nTipo: ${tipoPlano}\nPlano: ${plano}\nCoparticipação: ${copart}\nAbrangência: ${abrangencia}\n\nBeneficiários:\n`;
+    let mensagem = \n\nTipo: ${tipoPlano}\nPlano: ${plano}\nCoparticipação: ${copart}\nAbrangência: ${abrangencia}\n\nBeneficiários:\n;
     let total = 0;
     let erro = false;
 
@@ -82,28 +82,29 @@ function gerarCotacao() {
         );
 
         if (!faixa || !faixa.valor) {
-            alert(`Não há valor cadastrado para ${b.acomodacao}, ${b.idade} anos.`);
+            alert(Não há valor cadastrado para ${b.acomodacao}, ${b.idade} anos.);
             erro = true;
             return;
         }
 
         const valor = parseFloat(faixa.valor.replace(',', '.'));
         if (isNaN(valor)) {
-            alert(`Valor inválido na tabela para ${b.acomodacao}, ${b.idade} anos.`);
+            alert(Valor inválido na tabela para ${b.acomodacao}, ${b.idade} anos.);
             erro = true;
             return;
         }
 
         total += valor;
-        mensagem += `- ${b.idade} anos | ${b.acomodacao} | R$ ${valor.toFixed(2).replace('.', ',')}\n`;
+        mensagem += - ${b.idade} anos | ${b.acomodacao} | R$ ${valor.toFixed(2).replace('.', ',')}\n;
     });
 
     if (erro) return;
 
-    mensagem += `\nValor Total: R$ ${total.toFixed(2).replace('.', ',')}`;
+    mensagem += \nValor Total: R$ ${total.toFixed(2).replace('.', ',')};
 
     ultimaMensagem = mensagem;
 
+    // ✅ Já desenha automaticamente
     desenharCotacao();
 }
 
@@ -133,7 +134,7 @@ function desenharCotacao() {
         ctx.textAlign = 'center';
         ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
 
-        y += 40;
+        y += 20;
 
         ctx.textAlign = 'left';
         lines.forEach((line, idx) => {
@@ -152,11 +153,18 @@ function desenharCotacao() {
         wppIcon.src = 'https://cdn-icons-png.flaticon.com/512/733/733585.png';
         wppIcon.onload = function () {
             ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
-
-            // ✅ Só após desenhar tudo, convertemos para <img>
-            const imgElement = document.getElementById('cotacaoImagemFinal');
-            imgElement.src = canvas.toDataURL('image/png');
-            imgElement.style.display = 'block';
         };
     };
+}
+
+function tirarPrint() {
+    const canvas = document.getElementById('cotacaoImagem');
+    canvas.toBlob(blob => {
+        const item = new ClipboardItem({ 'image/png': blob });
+        navigator.clipboard.write([item]).then(() => {
+            alert('Imagem copiada! Agora pode colar no WhatsApp.');
+        }).catch(err => {
+            alert('Erro ao copiar a imagem: ' + err);
+        });
+    });
 }
