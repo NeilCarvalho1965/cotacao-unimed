@@ -66,7 +66,7 @@ function gerarCotacao() {
         };
     });
 
-    let mensagem = `Proposta de Plano de Saúde\n\nTipo: ${tipoPlano}\nPlano: ${plano}\nCoparticipação: ${copart}\nAbrangência: ${abrangencia}\n\nBeneficiários:\n`;
+    let mensagem = `\n\nTipo: ${tipoPlano}\nPlano: ${plano}\nCoparticipação: ${copart}\nAbrangência: ${abrangencia}\n\nBeneficiários:\n`;
     let total = 0;
     let erro = false;
 
@@ -128,7 +128,7 @@ function tirarPrint() {
         let y = 10 + logoHeight + 30;
 
         ctx.fillStyle = '#007d3c';  // ✅ tom verde elegante
-        ctx.font = '24px Arial';
+        ctx.font = '20px Arial';
         ctx.textAlign = 'center';      // ✅ Centralizado
         ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
         
