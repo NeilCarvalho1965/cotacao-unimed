@@ -1,0 +1,18 @@
+tipo_plano;plano;coparticipacao;abrangencia;acomodacao;faixa_min;faixa_max;qtd_beneficiarios;valor
+Adesão - Genesis;Flex;20%;Regional;Enfermaria;19;23;1;350
+Adesão - Genesis;Flex;20%;Regional;Apartamento;19;23;1;450
+Adesão - Simepar;Flex;20%;Regional;Enfermaria;19;23;1;350
+Adesão - Simepar;Flex;20%;Regional;Apartamento;19;23;1;450
+Pessoa Física - PF;Amigo;30%;Nacional;Enfermaria;19;23;2;480,5
+Pessoa Física - PF;Flex;50%;Regional;Enfermaria;19;23;1;381,22
+Pessoa Física - PF;Flex;50%;Regional;Apartamento;19;23;1;431,22
+Pessoa Física - PF;Flex;50%;Regional;Enfermaria;19;23;2;333,33
+Pessoa Física - PF;Flex;50%;Regional;Apartamento;19;23;2;411,11
+Pessoa Jurídica - PME4-;Flex;50%;Regional;Enfermaria;24;28;3-4;550,99
+Pessoa Jurídica - PME5+;Flex;50%;Regional;Apartamento;24;28;5+;501,35
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
