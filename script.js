@@ -54,10 +54,11 @@ function adicionarBeneficiario() {
 
 function obterAbrangencia(plano) {
     const abrangencias = {
-        "Flex": "Regional",
-        "Amigo": "Nacional",
-        "Smart": "Regional",
-        "Simepar": "Regional"
+        "Flex 1": "Regional",
+        "Flex Smart 1": "Regional",
+        "Pleno": "Regional",
+        "Amigo": "Nacional"
+        
     };
     return abrangencias[plano] || "Indefinida";
 }
