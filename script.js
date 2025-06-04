@@ -136,7 +136,7 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 60;  
+    const altura = 150 + lines.length * 25 + 100;  // antes: +60
     canvas.width = 350;  
     canvas.height = altura;
 
@@ -164,6 +164,11 @@ function desenharCotacao() {
             ctx.font = line.startsWith('Valor Total:') ? 'bold 16px Arial' : '16px Arial';
             ctx.fillText(line, 20, y + idx * 25);
         });
+
+        // Frase informativa
+        ctx.fillStyle = '#007d3c';
+        ctx.font = '12px Arial';
+        ctx.fillText('Esta cotação tem caráter estritamente informativo, apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
 
         ctx.fillStyle = '#007d3c';
         ctx.fillRect(0, canvas.height - 50, canvas.width, 50);
