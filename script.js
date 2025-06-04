@@ -173,7 +173,7 @@ function desenharCotacao() {
         ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 20);
 
         const wppIcon = new Image();
-        wppIcon.src = 'https://cdn-icons-png.flaticon.com/512/733/733585.png';
+        wppIcon.src = 'whatsapp-icon.png';   // ✅ Agora é local
         wppIcon.onload = function () {
             ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
 
