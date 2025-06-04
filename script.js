@@ -167,8 +167,12 @@ function desenharCotacao() {
 
         // Frase informativa
         ctx.fillStyle = '#007d3c';
-        ctx.font = '12px Arial';
-        ctx.fillText('Esta cotação tem caráter estritamente informativo, apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
+        ctx.font = '11px Arial';
+        // Primeira parte até a vírgula
+        ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
+
+        // Segunda parte após a vírgula
+        ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
 
         ctx.fillStyle = '#007d3c';
         ctx.fillRect(0, canvas.height - 50, canvas.width, 50);
