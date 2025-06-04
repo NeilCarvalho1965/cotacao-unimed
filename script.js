@@ -89,21 +89,8 @@ function gerarCotacao() {
             l.acomodacao === b.acomodacao &&
             b.idade >= parseInt(l.faixa_min) &&
             b.idade <= parseInt(l.faixa_max) &&
-            parseInt(l.qtd_beneficiarios) === qtdBeneficiarios
+            verificaQuantidade(l.qtd_beneficiarios, qtdBeneficiarios)
         );
-
-        if (!faixa) {
-            // Tenta buscar pela entrada com "999"
-            faixa = tabelaPrecos.find(l =>
-                l.tipo_plano === tipoPlano &&
-                l.plano === plano &&
-                l.coparticipacao === copart &&
-                l.acomodacao === b.acomodacao &&
-                b.idade >= parseInt(l.faixa_min) &&
-                b.idade <= parseInt(l.faixa_max) &&
-                parseInt(l.qtd_beneficiarios) === 999
-            );
-        }
 
         if (!faixa || !faixa.valor) {
             alert(`Não há valor cadastrado para ${b.acomodacao}, ${b.idade} anos.`);
@@ -136,8 +123,8 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 100;  // antes: +60
-    canvas.width = 350;  
+    const altura = 150 + lines.length * 25 + 100;
+    canvas.width = 350;
     canvas.height = altura;
 
     ctx.fillStyle = '#f5f5f5';
@@ -168,10 +155,7 @@ function desenharCotacao() {
         // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
-        // Primeira parte até a vírgula
         ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
-
-        // Segunda parte após a vírgula
         ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
 
         ctx.fillStyle = '#007d3c';
@@ -182,14 +166,30 @@ function desenharCotacao() {
         ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 20);
 
         const wppIcon = new Image();
-        wppIcon.src = 'whatsapp-icon.png';   // ✅ Agora é local
+        wppIcon.src = 'whatsapp-icon.png';
         wppIcon.onload = function () {
             ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
 
-            // Converte para <img>
             const imgElement = document.getElementById('cotacaoImagemFinal');
             imgElement.src = canvas.toDataURL('image/png');
             imgElement.style.display = 'block';
         };
     };
+}
+
+// ➡️ Função adicionada para verificar faixa de quantidade de beneficiários
+function verificaQuantidade(qtdTabela, qtdGrupo) {
+    if (qtdTabela === '999') return true;
+
+    if (qtdTabela.includes('+')) {
+        const base = parseInt(qtdTabela);
+        return qtdGrupo >= base;
+    }
+
+    if (qtdTabela.includes('-')) {
+        const [min, max] = qtdTabela.split('-').map(Number);
+        return qtdGrupo >= min && qtdGrupo <= max;
+    }
+
+    return parseInt(qtdTabela) === qtdGrupo;
 }
