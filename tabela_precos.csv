@@ -1,22 +1,491 @@
 tipo_plano;plano;coparticipacao;abrangencia;acomodacao;faixa_min;faixa_max;qtd_beneficiarios;valor
-Pessoa Física - PF;Flex;50%;Regional;Enfermaria;0;18;1;222,22
-Pessoa Física - PF;Flex;50%;Regional;Apartamento;0;18;1;244,44
-Pessoa Física - PF;Flex;50%;Regional;Enfermaria;0;18;2;211,11
-Pessoa Física - PF;Flex;50%;Regional;Apartamento;0;18;2;212,12
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;1;364,31
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;1;439,83
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;1;501,19
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;1;557,57
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;1;630,78
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;1;703,07
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;1;837,08
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;1;1.054,05
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;1;1.337,06
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;1;1.907,32
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;2;327,88
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;2;395,85
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;2;451,07
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;2;501,82
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;2;567,71
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;2;632,77
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;2;753,38
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;2;948,66
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;2;1.203,38
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;2;1.716,62
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;3;309,66
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;3;373,85
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;3;426,00
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;3;473,93
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;3;536,16
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;3;597,60
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;3;711,50
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;3;895,92
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;3;1.136,47
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;3;1.621,17
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;4+;291,45
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;4+;351,87
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;4+;400,96
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;4+;446,07
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;4+;504,64
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;4+;562,47
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;4+;669,68
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;4+;843,26
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;4+;1.069,68
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;4+;1.525,90
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;1;543,92
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;1;619,96
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;1;679,54
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;1;732,14
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;1;802,57
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;1;996,39
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;1;1.152,52
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;1;1.518,21
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;1;1.935,72
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;1;2.430,10
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;2;489,53
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;2;557,97
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;2;611,59
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;2;658,93
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;2;722,32
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;2;896,76
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;2;1.037,28
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;2;1.366,41
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;2;1.742,17
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;2;2.187,12
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;3;462,33
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;3;526,96
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;3;577,60
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;3;622,31
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;3;682,18
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;3;846,93
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;3;979,64
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;3;1.290,48
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;3;1.645,36
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;3;2.065,58
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;4+;435,14
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;4+;495,97
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;4+;543,63
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;4+;585,71
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;4+;642,06
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;4+;797,12
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;4+;922,03
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;4+;1.214,59
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;4+;1.548,60
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;4+;1.944,11
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;1;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;2;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;3;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;4+;
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;1;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;2;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;3;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;4+;
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;1;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;2;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;3;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;4+;
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;1;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;2;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;3;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;4+;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;1;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;1;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;2;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;2;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;3;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;3;
+;;;;;;;;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;4+;
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;4+;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
 Adesão - Genesis;Flex;20%;Regional;Enfermaria;19;23;1;350
 Adesão - Genesis;Flex;20%;Regional;Apartamento;19;23;1;450
 Adesão - Simepar;Flex;20%;Regional;Enfermaria;19;23;1;350
 Adesão - Simepar;Flex;20%;Regional;Apartamento;19;23;1;450
-Pessoa Física - PF;Amigo;30%;Nacional;Enfermaria;19;23;2;480,5
-Pessoa Física - PF;Flex;50%;Regional;Enfermaria;19;23;1;381,22
-Pessoa Física - PF;Flex;50%;Regional;Apartamento;19;23;1;431,22
-Pessoa Física - PF;Flex;50%;Regional;Enfermaria;19;23;2;333,33
-Pessoa Física - PF;Flex;50%;Regional;Apartamento;19;23;2;411,11
 Pessoa Jurídica - PME4-;Flex;50%;Regional;Enfermaria;24;28;3-4;550,99
 Pessoa Jurídica - PME5+;Flex;50%;Regional;Apartamento;24;28;5+;501,35
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
