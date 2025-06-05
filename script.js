@@ -178,7 +178,7 @@ function desenharCotacao() {
             ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, canvas.height - 140);
             ctx.fillText(partesInternacao[1], 20, canvas.height - 125);
         } else {
-            ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 140);
+            ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 140);//teste
         }
 
         // Frase informativa
