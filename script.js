@@ -212,10 +212,6 @@ function desenharCotacao() {
         wppIcon.src = 'whatsapp-icon.png';
         wppIcon.onload = function () {
             ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
-
-            const imgElement = document.getElementById('cotacaoImagemFinal');
-            imgElement.src = canvas.toDataURL('image/png');
-            imgElement.style.display = 'block';
         };
     };
 }
