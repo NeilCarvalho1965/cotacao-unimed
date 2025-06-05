@@ -137,9 +137,9 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 200;  // Ajuste de altura
+    const baseAltura = 150 + lines.length * 25 + 150;  // Ajuste de altura
     canvas.width = 350;
-    canvas.height = altura;
+    canvas.height = baseAltura;
 
     ctx.fillStyle = '#f5f5f5';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -166,26 +166,41 @@ function desenharCotacao() {
             ctx.fillText(line, 20, y + idx * 25);
         });
 
+        // Calcula nova baseY após os beneficiários
+        let yInformacoes = y + lines.length * 25 + 20;
+
         // Informações adicionais
         ctx.fillStyle = '#007d3c';
         ctx.font = '12px Arial';
-        ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
-        ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
-         // Quebra automática para internacao
+        ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, yInformacoes);
+        yInformacoes += 15;
+
+        ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, yInformacoes);
+        yInformacoes += 15;
+
+        // Quebra automática para internacao
         const partesInternacao = textoInternacao.split(' e ');
         if (partesInternacao.length > 1) {
-            ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, canvas.height - 140);
-            ctx.fillText(partesInternacao[1], 20, canvas.height - 125);
+            ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, yInformacoes);
+            yInformacoes += 15;
+            ctx.fillText(partesInternacao[1], 20, yInformacoes);
+            yInformacoes += 15;
         } else {
-            ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 140);
+            ctx.fillText(`✅ ${textoInternacao}`, 20, yInformacoes);
+            yInformacoes += 15;
         }
         
         // Frase informativa
-        ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
-        ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
-        ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
+        ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, yInformacoes);
+        yInformacoes += 15;
+        ctx.fillText('apresentando estimativa dos valores praticados.', 20, yInformacoes);
+        yInformacoes += 20;
 
+        // Ajusta altura final do canvas
+        canvas.height = yInformacoes + 50;
+
+        // Redesenha fundo da tarja
         ctx.fillStyle = '#007d3c';
         ctx.fillRect(0, canvas.height - 50, canvas.width, 50);
 
