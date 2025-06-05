@@ -71,27 +71,23 @@ function gerarCotacao() {
     const copart = document.getElementById('coparticipacao').value;
     const abrangencia = obterAbrangencia(plano);
 
+    // Buscar informações adicionais do plano
+    const infoPlano = tabelaPrecos.find(l =>
+        l.tipo_plano === tipoPlano &&
+        l.plano === plano &&
+        l.coparticipacao === copart
+    );
+
+    textoConsulta = infoPlano ? infoPlano.coparticipacao_consulta : '';
+    textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
+    textoInternacao = infoPlano ? infoPlano.internacao : '';
+
     const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
-        const idadeInput = div.querySelector('.idade').value;
-        const idade = parseInt(idadeInput);
-
-        if (isNaN(idade)) {
-            alert("Por favor, preencha todas as idades dos beneficiários corretamente.");
-            throw new Error("Idade inválida encontrada.");
-        }
-
         return {
-            idade: idade,
+            idade: parseInt(div.querySelector('.idade').value),
             acomodacao: div.querySelector('.acomodacao').value
         };
     });
-
-    console.log('Antes da ordenação:', beneficiarios);
-
-    // ✅ Ordena automaticamente por idade (ordem crescente)
-    beneficiarios.sort((a, b) => a.idade - b.idade);
-
-    console.log('Depois da ordenação:', beneficiarios);
 
     const qtdBeneficiarios = beneficiarios.length;
 
