@@ -89,6 +89,9 @@ function gerarCotacao() {
         };
     });
 
+    // ✅ Ordena automaticamente por idade
+    beneficiarios.sort((a, b) => a.idade - b.idade);
+
     const qtdBeneficiarios = beneficiarios.length;
 
     let mensagem = `\n\nTipo: ${tipoPlano}\nPlano: ${plano}\nAbrangência: ${abrangencia}\nCoparticipação: ${copart}\n\nBeneficiários:\n`;
