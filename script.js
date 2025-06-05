@@ -1,8 +1,5 @@
 let tabelaPrecos = [];
 let ultimaMensagem = '';
-let textoConsulta = '';
-let textoExames = '';
-let textoInternacao = '';
 
 fetch('tabela_precos.csv')
     .then(response => response.text())
@@ -71,17 +68,6 @@ function gerarCotacao() {
     const copart = document.getElementById('coparticipacao').value;
     const abrangencia = obterAbrangencia(plano);
 
-    // Buscar informações adicionais do plano
-    const infoPlano = tabelaPrecos.find(l =>
-        l.tipo_plano === tipoPlano &&
-        l.plano === plano &&
-        l.coparticipacao === copart
-    );
-
-    textoConsulta = infoPlano ? infoPlano.coparticipacao_consulta : '';
-    textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
-    textoInternacao = infoPlano ? infoPlano.internacao : '';
-
     const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
         return {
             idade: parseInt(div.querySelector('.idade').value),
@@ -137,7 +123,7 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 200;  // Ajuste para mais espaço
+    const altura = 150 + lines.length * 25 + 100;
     canvas.width = 350;
     canvas.height = altura;
 
@@ -166,21 +152,6 @@ function desenharCotacao() {
             ctx.fillText(line, 20, y + idx * 25);
         });
 
-        // Informações adicionais
-        ctx.fillStyle = '#007d3c';
-        ctx.font = '12px Arial';
-        ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 170);
-        ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 155);
-
-        // Quebra automática para internacao
-        const partesInternacao = textoInternacao.split(' e ');
-        if (partesInternacao.length > 1) {
-            ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, canvas.height - 140);
-            ctx.fillText(partesInternacao[1], 20, canvas.height - 125);
-        } else {
-            ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 140);//teste
-        }
-
         // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
@@ -198,10 +169,15 @@ function desenharCotacao() {
         wppIcon.src = 'whatsapp-icon.png';
         wppIcon.onload = function () {
             ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
+
+            const imgElement = document.getElementById('cotacaoImagemFinal');
+            imgElement.src = canvas.toDataURL('image/png');
+            imgElement.style.display = 'block';
         };
     };
 }
 
+// ➡️ Função adicionada para verificar faixa de quantidade de beneficiários
 function verificaQuantidade(qtdTabela, qtdGrupo) {
     if (qtdTabela === '999') return true;
 
