@@ -72,14 +72,26 @@ function gerarCotacao() {
     const abrangencia = obterAbrangencia(plano);
 
     const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
+        const idadeInput = div.querySelector('.idade').value;
+        const idade = parseInt(idadeInput);
+
+        if (isNaN(idade)) {
+            alert("Por favor, preencha todas as idades dos beneficiários corretamente.");
+            throw new Error("Idade inválida encontrada.");
+        }
+
         return {
-            idade: parseInt(div.querySelector('.idade').value),
+            idade: idade,
             acomodacao: div.querySelector('.acomodacao').value
         };
     });
 
+    console.log('Antes da ordenação:', beneficiarios);
+
     // ✅ Ordena automaticamente por idade (ordem crescente)
     beneficiarios.sort((a, b) => a.idade - b.idade);
+
+    console.log('Depois da ordenação:', beneficiarios);
 
     const qtdBeneficiarios = beneficiarios.length;
 
