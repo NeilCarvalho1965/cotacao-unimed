@@ -1,5 +1,8 @@
 let tabelaPrecos = [];
 let ultimaMensagem = '';
+let textoConsulta = '';
+let textoExames = '';
+let textoInternacao = '';
 
 fetch('tabela_precos.csv')
     .then(response => response.text())
@@ -54,11 +57,10 @@ function adicionarBeneficiario() {
 
 function obterAbrangencia(plano) {
     const abrangencias = {
-        "Flex 1": "Regional",
-        "Flex Smart 1": "Regional",
-        "Pleno": "Regional",
-        "Amigo": "Nacional"
-        
+        "Flex": "Regional",
+        "Amigo": "Nacional",
+        "Smart": "Regional",
+        "Simepar": "Regional"
     };
     return abrangencias[plano] || "Indefinida";
 }
@@ -68,6 +70,17 @@ function gerarCotacao() {
     const plano = document.getElementById('plano').value;
     const copart = document.getElementById('coparticipacao').value;
     const abrangencia = obterAbrangencia(plano);
+
+    // Buscar informações adicionais do plano
+    const infoPlano = tabelaPrecos.find(l =>
+        l.tipo_plano === tipoPlano &&
+        l.plano === plano &&
+        l.coparticipacao === copart
+    );
+
+    textoConsulta = infoPlano ? infoPlano.coparticipacao_consulta : '';
+    textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
+    textoInternacao = infoPlano ? infoPlano.internacao : '';
 
     const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
         return {
@@ -124,7 +137,7 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 100;
+    const altura = 150 + lines.length * 25 + 180;  // Ajuste de altura
     canvas.width = 350;
     canvas.height = altura;
 
@@ -153,6 +166,13 @@ function desenharCotacao() {
             ctx.fillText(line, 20, y + idx * 25);
         });
 
+        // Informações adicionais
+        ctx.fillStyle = '#007d3c';
+        ctx.font = '12px Arial';
+        ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
+        ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
+        ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
+
         // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
@@ -178,7 +198,6 @@ function desenharCotacao() {
     };
 }
 
-// ➡️ Função adicionada para verificar faixa de quantidade de beneficiários
 function verificaQuantidade(qtdTabela, qtdGrupo) {
     if (qtdTabela === '999') return true;
 
