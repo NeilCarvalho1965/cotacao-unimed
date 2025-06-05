@@ -137,7 +137,7 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 180;  // Ajuste de altura
+    const altura = 150 + lines.length * 25 + 200;  // Ajuste de altura
     canvas.width = 350;
     canvas.height = altura;
 
@@ -171,8 +171,15 @@ function desenharCotacao() {
         ctx.font = '12px Arial';
         ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
         ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
-        ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
-
+         // Quebra automática para internacao
+        const partesInternacao = textoInternacao.split(' e ');
+        if (partesInternacao.length > 1) {
+            ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, canvas.height - 140);
+            ctx.fillText(partesInternacao[1], 20, canvas.height - 125);
+        } else {
+            ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 140);
+        }
+        
         // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
