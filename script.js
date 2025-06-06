@@ -1,3 +1,4 @@
+// script.js atualizado com filtros encadeados e compatibilidade Android
 let tabelaPrecos = [];
 let ultimaMensagem = '';
 let textoConsulta = '';
@@ -8,7 +9,7 @@ fetch('tabela_precos.csv')
     .then(response => response.text())
     .then(data => {
         tabelaPrecos = parseCSV(data);
-        preencherSelects();
+        preencherTipoPlano();
     });
 
 function parseCSV(data) {
@@ -24,10 +25,36 @@ function parseCSV(data) {
     }).filter(Boolean);
 }
 
-function preencherSelects() {
-    preencherSelect('tipoPlano', [...new Set(tabelaPrecos.map(l => l.tipo_plano))]);
-    preencherSelect('plano', [...new Set(tabelaPrecos.map(l => l.plano))]);
-    preencherSelect('coparticipacao', []); // será preenchido dinamicamente
+function preencherTipoPlano() {
+    const tipos = [...new Set(tabelaPrecos.map(l => l.tipo_plano))];
+    preencherSelect('tipoPlano', tipos);
+    filtrarPlanos();
+}
+
+function filtrarPlanos() {
+    const tipoSelecionado = document.getElementById('tipoPlano').value;
+    const planos = [
+        ...new Set(
+            tabelaPrecos
+                .filter(l => l.tipo_plano === tipoSelecionado)
+                .map(l => l.plano)
+        )
+    ];
+    preencherSelect('plano', planos);
+    filtrarCoparticipacoes();
+}
+
+function filtrarCoparticipacoes() {
+    const tipoSelecionado = document.getElementById('tipoPlano').value;
+    const planoSelecionado = document.getElementById('plano').value;
+    const coparts = [
+        ...new Set(
+            tabelaPrecos
+                .filter(l => l.tipo_plano === tipoSelecionado && l.plano === planoSelecionado)
+                .map(l => l.coparticipacao)
+        )
+    ];
+    preencherSelect('coparticipacao', coparts);
 }
 
 function preencherSelect(id, valores) {
@@ -39,18 +66,6 @@ function preencherSelect(id, valores) {
         opt.textContent = v;
         sel.appendChild(opt);
     });
-}
-
-function filtrarCoparticipacoes() {
-    const tipoSelecionado = document.getElementById('tipoPlano').value;
-    const copartsFiltradas = [
-        ...new Set(
-            tabelaPrecos
-                .filter(l => l.tipo_plano === tipoSelecionado)
-                .map(l => l.coparticipacao)
-        )
-    ];
-    preencherSelect('coparticipacao', copartsFiltradas);
 }
 
 function adicionarBeneficiario() {
@@ -83,7 +98,6 @@ function gerarCotacao() {
     const copart = document.getElementById('coparticipacao').value;
     const abrangencia = obterAbrangencia(plano);
 
-    // Buscar informações adicionais do plano
     const infoPlano = tabelaPrecos.find(l =>
         l.tipo_plano === tipoPlano &&
         l.plano === plano &&
@@ -101,7 +115,6 @@ function gerarCotacao() {
         };
     });
 
-    // ✅ Ordenar beneficiários por idade crescente
     beneficiarios.sort((a, b) => a.idade - b.idade);
 
     const qtdBeneficiarios = beneficiarios.length;
@@ -141,9 +154,7 @@ function gerarCotacao() {
     if (erro) return;
 
     mensagem += `\nValor Total: R$ ${total.toFixed(2).replace('.', ',')}`;
-
     ultimaMensagem = mensagem;
-
     desenharCotacao();
 }
 
