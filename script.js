@@ -27,7 +27,7 @@ function parseCSV(data) {
 function preencherSelects() {
     preencherSelect('tipoPlano', [...new Set(tabelaPrecos.map(l => l.tipo_plano))]);
     preencherSelect('plano', [...new Set(tabelaPrecos.map(l => l.plano))]);
-    preencherSelect('coparticipacao', [...new Set(tabelaPrecos.map(l => l.coparticipacao))]);
+    preencherSelect('coparticipacao', []); // será preenchido dinamicamente
 }
 
 function preencherSelect(id, valores) {
@@ -39,6 +39,18 @@ function preencherSelect(id, valores) {
         opt.textContent = v;
         sel.appendChild(opt);
     });
+}
+
+function filtrarCoparticipacoes() {
+    const tipoSelecionado = document.getElementById('tipoPlano').value;
+    const copartsFiltradas = [
+        ...new Set(
+            tabelaPrecos
+                .filter(l => l.tipo_plano === tipoSelecionado)
+                .map(l => l.coparticipacao)
+        )
+    ];
+    preencherSelect('coparticipacao', copartsFiltradas);
 }
 
 function adicionarBeneficiario() {
@@ -82,12 +94,15 @@ function gerarCotacao() {
     textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
     textoInternacao = infoPlano ? infoPlano.internacao : '';
 
-    const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
+    let beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
         return {
             idade: parseInt(div.querySelector('.idade').value),
             acomodacao: div.querySelector('.acomodacao').value
         };
     });
+
+    // ✅ Ordenar beneficiários por idade crescente
+    beneficiarios.sort((a, b) => a.idade - b.idade);
 
     const qtdBeneficiarios = beneficiarios.length;
 
@@ -137,7 +152,7 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 180;  // Ajuste de altura
+    const altura = 150 + lines.length * 25 + 180;
     canvas.width = 350;
     canvas.height = altura;
 
@@ -166,14 +181,12 @@ function desenharCotacao() {
             ctx.fillText(line, 20, y + idx * 25);
         });
 
-        // Informações adicionais
         ctx.fillStyle = '#007d3c';
         ctx.font = '12px Arial';
         ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
         ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
         ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
 
-        // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
         ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
@@ -200,16 +213,13 @@ function desenharCotacao() {
 
 function verificaQuantidade(qtdTabela, qtdGrupo) {
     if (qtdTabela === '999') return true;
-
     if (qtdTabela.includes('+')) {
         const base = parseInt(qtdTabela);
         return qtdGrupo >= base;
     }
-
     if (qtdTabela.includes('-')) {
         const [min, max] = qtdTabela.split('-').map(Number);
         return qtdGrupo >= min && qtdGrupo <= max;
     }
-
     return parseInt(qtdTabela) === qtdGrupo;
 }
