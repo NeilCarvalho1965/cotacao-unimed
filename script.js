@@ -1,4 +1,3 @@
-// script.js atualizado com filtros encadeados e compatibilidade Android
 let tabelaPrecos = [];
 let ultimaMensagem = '';
 let textoConsulta = '';
@@ -9,7 +8,7 @@ fetch('tabela_precos.csv')
     .then(response => response.text())
     .then(data => {
         tabelaPrecos = parseCSV(data);
-        preencherTipoPlano();
+        preencherSelects();
     });
 
 function parseCSV(data) {
@@ -25,36 +24,10 @@ function parseCSV(data) {
     }).filter(Boolean);
 }
 
-function preencherTipoPlano() {
-    const tipos = [...new Set(tabelaPrecos.map(l => l.tipo_plano))];
-    preencherSelect('tipoPlano', tipos);
-    filtrarPlanos();
-}
-
-function filtrarPlanos() {
-    const tipoSelecionado = document.getElementById('tipoPlano').value;
-    const planos = [
-        ...new Set(
-            tabelaPrecos
-                .filter(l => l.tipo_plano === tipoSelecionado)
-                .map(l => l.plano)
-        )
-    ];
-    preencherSelect('plano', planos);
-    filtrarCoparticipacoes();
-}
-
-function filtrarCoparticipacoes() {
-    const tipoSelecionado = document.getElementById('tipoPlano').value;
-    const planoSelecionado = document.getElementById('plano').value;
-    const coparts = [
-        ...new Set(
-            tabelaPrecos
-                .filter(l => l.tipo_plano === tipoSelecionado && l.plano === planoSelecionado)
-                .map(l => l.coparticipacao)
-        )
-    ];
-    preencherSelect('coparticipacao', coparts);
+function preencherSelects() {
+    preencherSelect('tipoPlano', [...new Set(tabelaPrecos.map(l => l.tipo_plano))]);
+    preencherSelect('plano', [...new Set(tabelaPrecos.map(l => l.plano))]);
+    preencherSelect('coparticipacao', [...new Set(tabelaPrecos.map(l => l.coparticipacao))]);
 }
 
 function preencherSelect(id, valores) {
@@ -98,6 +71,7 @@ function gerarCotacao() {
     const copart = document.getElementById('coparticipacao').value;
     const abrangencia = obterAbrangencia(plano);
 
+    // Buscar informações adicionais do plano
     const infoPlano = tabelaPrecos.find(l =>
         l.tipo_plano === tipoPlano &&
         l.plano === plano &&
@@ -108,14 +82,12 @@ function gerarCotacao() {
     textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
     textoInternacao = infoPlano ? infoPlano.internacao : '';
 
-    let beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
+    const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
         return {
             idade: parseInt(div.querySelector('.idade').value),
             acomodacao: div.querySelector('.acomodacao').value
         };
     });
-
-    beneficiarios.sort((a, b) => a.idade - b.idade);
 
     const qtdBeneficiarios = beneficiarios.length;
 
@@ -154,7 +126,9 @@ function gerarCotacao() {
     if (erro) return;
 
     mensagem += `\nValor Total: R$ ${total.toFixed(2).replace('.', ',')}`;
+
     ultimaMensagem = mensagem;
+
     desenharCotacao();
 }
 
@@ -163,7 +137,7 @@ function desenharCotacao() {
     const ctx = canvas.getContext('2d');
 
     const lines = ultimaMensagem.split('\n');
-    const altura = 150 + lines.length * 25 + 180;
+    const altura = 150 + lines.length * 25 + 180;  // Ajuste de altura
     canvas.width = 350;
     canvas.height = altura;
 
@@ -192,12 +166,14 @@ function desenharCotacao() {
             ctx.fillText(line, 20, y + idx * 25);
         });
 
+        // Informações adicionais
         ctx.fillStyle = '#007d3c';
         ctx.font = '12px Arial';
         ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
         ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
         ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
 
+        // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
         ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
@@ -224,13 +200,16 @@ function desenharCotacao() {
 
 function verificaQuantidade(qtdTabela, qtdGrupo) {
     if (qtdTabela === '999') return true;
+
     if (qtdTabela.includes('+')) {
         const base = parseInt(qtdTabela);
         return qtdGrupo >= base;
     }
+
     if (qtdTabela.includes('-')) {
         const [min, max] = qtdTabela.split('-').map(Number);
         return qtdGrupo >= min && qtdGrupo <= max;
     }
+
     return parseInt(qtdTabela) === qtdGrupo;
 }
