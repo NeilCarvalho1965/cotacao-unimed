@@ -42,8 +42,14 @@
 </form>
 
 <canvas id="cotacaoImagem"></canvas>
-
 <img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('tipoPlano').addEventListener('change', filtrarPlanos);
+        document.getElementById('plano').addEventListener('change', filtrarCoparticipacoes);
+    });
+</script>
 
 </body>
 </html>
