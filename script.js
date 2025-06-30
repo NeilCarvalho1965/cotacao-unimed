@@ -44,14 +44,20 @@ function preencherSelect(id, valores) {
 function adicionarBeneficiario() {
     const div = document.createElement('div');
     div.innerHTML = `
-        <label>Data de Nascimento (opcional): <input type="date" class="data-nascimento" onchange="calcularIdade(this)"></label>
-        <label>Idade: <input type="number" class="idade" placeholder="Informe ou calcule a idade"></label>
-        <label>Acomodação:
-            <select class="acomodacao">
-                <option>Enfermaria</option>
-                <option>Apartamento</option>
-            </select>
+    <div style="display: flex; gap: 10px; align-items: flex-end;">
+        <label style="flex: 1;">Data Nasc.:
+            <input type="date" class="data-nascimento" onchange="calcularIdade(this)">
         </label>
+        <label style="width: 80px;">Idade:
+            <input type="number" class="idade" placeholder="0">
+        </label>
+    </div>
+    <label>Acomodação:
+        <select class="acomodacao">
+            <option>Enfermaria</option>
+            <option>Apartamento</option>
+        </select>
+    </label>
     `;
     document.getElementById('beneficiarios').appendChild(div);
 }
