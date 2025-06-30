@@ -43,39 +43,39 @@ function preencherSelect(id, valores) {
 
 function adicionarBeneficiario() {
     const div = document.createElement('div');
-div.innerHTML = `
-    <div style="display: flex; gap: 10px; align-items: flex-end;">
-        <label style="width: 80px;">Idade:
-            <input type="number" class="idade" placeholder="0">
+    div.innerHTML = `
+        <div style="display: flex; gap: 10px; align-items: flex-end;">
+            <label style="width: 120px;">Idade:
+                <input type="number" class="idade" placeholder="0" style="background-color: #f0f0f0; width: 100%;">
+            </label>
+            <label style="flex: 1;">Data Nasc.:
+                <input type="date" class="data-nascimento" onchange="calcularIdade(this)">
+            </label>
+        </div>
+        <label>Acomodação:
+            <select class="acomodacao">
+                <option>Enfermaria</option>
+                <option>Apartamento</option>
+            </select>
         </label>
-        <label style="flex: 1;">Data Nasc.:
-            <input type="date" class="data-nascimento" onchange="calcularIdade(this)">
-        </label>
-    </div>
-    <label>Acomodação:
-        <select class="acomodacao">
-            <option>Enfermaria</option>
-            <option>Apartamento</option>
-        </select>
-    </label>
     `;
     document.getElementById('beneficiarios').appendChild(div);
 }
 
-function calcularIdade(inputDate) {
-    const data = new Date(inputDate.value);
-    if (!isNaN(data)) {
-        const hoje = new Date();
-        let idade = hoje.getFullYear() - data.getFullYear();
-        const m = hoje.getMonth() - data.getMonth();
-        if (m < 0 || (m === 0 && hoje.getDate() < data.getDate())) {
-            idade--;
-        }
-        const campoIdade = inputDate.closest('div').querySelector('.idade');
-        if (idade >= 0) {
-            campoIdade.value = idade;
-        }
+function calcularIdade(input) {
+    const nascimento = input.value;
+    if (!nascimento) return;
+
+    const hoje = new Date();
+    const nasc = new Date(nascimento);
+    let idade = hoje.getFullYear() - nasc.getFullYear();
+    const m = hoje.getMonth() - nasc.getMonth();
+    if (m < 0 || (m === 0 && hoje.getDate() < nasc.getDate())) {
+        idade--;
     }
+
+    const campoIdade = input.closest('div').querySelector('.idade');
+    campoIdade.value = idade;
 }
 
 function obterAbrangencia(plano) {
@@ -94,6 +94,19 @@ function gerarCotacao() {
     const copart = document.getElementById('coparticipacao').value;
     const abrangencia = obterAbrangencia(plano);
 
+    const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
+        return {
+            idade: parseInt(div.querySelector('.idade').value),
+            acomodacao: div.querySelector('.acomodacao').value
+        };
+    });
+
+    // ✅ Ordena por idade crescente
+    beneficiarios.sort((a, b) => a.idade - b.idade);
+
+    const qtdBeneficiarios = beneficiarios.length;
+
+    // ✅ Buscar informações adicionais
     const infoPlano = tabelaPrecos.find(l =>
         l.tipo_plano === tipoPlano &&
         l.plano === plano &&
@@ -103,15 +116,6 @@ function gerarCotacao() {
     textoConsulta = infoPlano ? infoPlano.coparticipacao_consulta : '';
     textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
     textoInternacao = infoPlano ? infoPlano.internacao : '';
-
-    const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
-        return {
-            idade: parseInt(div.querySelector('.idade').value),
-            acomodacao: div.querySelector('.acomodacao').value
-        };
-    });
-
-    const qtdBeneficiarios = beneficiarios.length;
 
     let mensagem = `\n\nTipo: ${tipoPlano}\nPlano: ${plano}\nAbrangência: ${abrangencia}\nCoparticipação: ${copart}\n\nBeneficiários:\n`;
     let total = 0;
@@ -148,6 +152,7 @@ function gerarCotacao() {
     if (erro) return;
 
     mensagem += `\nValor Total: R$ ${total.toFixed(2).replace('.', ',')}`;
+
     ultimaMensagem = mensagem;
     desenharCotacao();
 }
@@ -179,7 +184,6 @@ function desenharCotacao() {
         ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
 
         y += 20;
-
         ctx.textAlign = 'left';
         lines.forEach((line, idx) => {
             ctx.font = line.startsWith('Valor Total:') ? 'bold 16px Arial' : '16px Arial';
@@ -191,32 +195,33 @@ function desenharCotacao() {
         ctx.font = '12px Arial';
         ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
         ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
-        
-        // Quebra para texto longo de internação
+
         const partesInternacao = textoInternacao.split(' e ');
         if (partesInternacao.length > 1) {
             ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, canvas.height - 120);
-            ctx.fillText(partesInternacao[1], 20, canvas.height - 105);
+            ctx.fillText(`${partesInternacao[1]}`, 20, canvas.height - 105);
         } else {
             ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
         }
 
+        // Frase informativa
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
         ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 70);
         ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 55);
 
         ctx.fillStyle = '#007d3c';
-        ctx.fillRect(0, canvas.height - 40, canvas.width, 40);
+        ctx.fillRect(0, canvas.height - 35, canvas.width, 35);
 
         ctx.fillStyle = '#fff';
         ctx.font = 'bold 16px Arial';
-        ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 15);
+        ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 12);
 
         const wppIcon = new Image();
         wppIcon.src = 'whatsapp-icon.png';
         wppIcon.onload = function () {
-            ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 35, 25, 25);
+            ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 32, 22, 22);
+
             const imgElement = document.getElementById('cotacaoImagemFinal');
             imgElement.src = canvas.toDataURL('image/png');
             imgElement.style.display = 'block';
