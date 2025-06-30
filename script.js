@@ -8,7 +8,7 @@ fetch('tabela_precos.csv')
     .then(response => response.text())
     .then(data => {
         tabelaPrecos = parseCSV(data);
-        preencherTipoPlano();
+        preencherSelects();
     });
 
 function parseCSV(data) {
@@ -24,36 +24,10 @@ function parseCSV(data) {
     }).filter(Boolean);
 }
 
-function preencherTipoPlano() {
-    const tipos = [...new Set(tabelaPrecos.map(l => l.tipo_plano))];
-    preencherSelect('tipoPlano', tipos);
-    filtrarPlanos();
-}
-
-function filtrarPlanos() {
-    const tipoSelecionado = document.getElementById('tipoPlano').value;
-    const planos = [
-        ...new Set(
-            tabelaPrecos
-                .filter(l => l.tipo_plano === tipoSelecionado)
-                .map(l => l.plano)
-        )
-    ];
-    preencherSelect('plano', planos);
-    filtrarCoparticipacoes();
-}
-
-function filtrarCoparticipacoes() {
-    const tipoSelecionado = document.getElementById('tipoPlano').value;
-    const planoSelecionado = document.getElementById('plano').value;
-    const coparts = [
-        ...new Set(
-            tabelaPrecos
-                .filter(l => l.tipo_plano === tipoSelecionado && l.plano === planoSelecionado)
-                .map(l => l.coparticipacao)
-        )
-    ];
-    preencherSelect('coparticipacao', coparts);
+function preencherSelects() {
+    preencherSelect('tipoPlano', [...new Set(tabelaPrecos.map(l => l.tipo_plano))]);
+    preencherSelect('plano', [...new Set(tabelaPrecos.map(l => l.plano))]);
+    preencherSelect('coparticipacao', [...new Set(tabelaPrecos.map(l => l.coparticipacao))]);
 }
 
 function preencherSelect(id, valores) {
@@ -70,7 +44,8 @@ function preencherSelect(id, valores) {
 function adicionarBeneficiario() {
     const div = document.createElement('div');
     div.innerHTML = `
-        <label>Idade: <input type="number" class="idade"></label>
+        <label>Data de Nascimento (opcional): <input type="date" class="data-nascimento" onchange="calcularIdade(this)"></label>
+        <label>Idade: <input type="number" class="idade" placeholder="Informe ou calcule a idade"></label>
         <label>Acomodação:
             <select class="acomodacao">
                 <option>Enfermaria</option>
@@ -79,6 +54,22 @@ function adicionarBeneficiario() {
         </label>
     `;
     document.getElementById('beneficiarios').appendChild(div);
+}
+
+function calcularIdade(inputDate) {
+    const data = new Date(inputDate.value);
+    if (!isNaN(data)) {
+        const hoje = new Date();
+        let idade = hoje.getFullYear() - data.getFullYear();
+        const m = hoje.getMonth() - data.getMonth();
+        if (m < 0 || (m === 0 && hoje.getDate() < data.getDate())) {
+            idade--;
+        }
+        const campoIdade = inputDate.closest('div').querySelector('.idade');
+        if (idade >= 0) {
+            campoIdade.value = idade;
+        }
+    }
 }
 
 function obterAbrangencia(plano) {
@@ -107,14 +98,12 @@ function gerarCotacao() {
     textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
     textoInternacao = infoPlano ? infoPlano.internacao : '';
 
-    let beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
+    const beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
         return {
             idade: parseInt(div.querySelector('.idade').value),
             acomodacao: div.querySelector('.acomodacao').value
         };
     });
-
-    beneficiarios.sort((a, b) => a.idade - b.idade);
 
     const qtdBeneficiarios = beneficiarios.length;
 
@@ -191,29 +180,37 @@ function desenharCotacao() {
             ctx.fillText(line, 20, y + idx * 25);
         });
 
+        // Informações adicionais
         ctx.fillStyle = '#007d3c';
         ctx.font = '12px Arial';
         ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
         ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
-        ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
+        
+        // Quebra para texto longo de internação
+        const partesInternacao = textoInternacao.split(' e ');
+        if (partesInternacao.length > 1) {
+            ctx.fillText(`✅ ${partesInternacao[0]} e`, 20, canvas.height - 120);
+            ctx.fillText(partesInternacao[1], 20, canvas.height - 105);
+        } else {
+            ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
+        }
 
         ctx.fillStyle = '#007d3c';
         ctx.font = '11px Arial';
-        ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
-        ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
+        ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 70);
+        ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 55);
 
         ctx.fillStyle = '#007d3c';
-        ctx.fillRect(0, canvas.height - 50, canvas.width, 50);
+        ctx.fillRect(0, canvas.height - 40, canvas.width, 40);
 
         ctx.fillStyle = '#fff';
         ctx.font = 'bold 16px Arial';
-        ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 20);
+        ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 15);
 
         const wppIcon = new Image();
         wppIcon.src = 'whatsapp-icon.png';
         wppIcon.onload = function () {
-            ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
-
+            ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 35, 25, 25);
             const imgElement = document.getElementById('cotacaoImagemFinal');
             imgElement.src = canvas.toDataURL('image/png');
             imgElement.style.display = 'block';
