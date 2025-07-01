@@ -247,19 +247,18 @@ function calcularIdade(input) {
     const dataNasc = new Date(input.value);
     const hoje = new Date();
 
-    if (isNaN(dataNasc.getTime())) return; // Se data inválida, sai
+    if (isNaN(dataNasc.getTime())) return;
 
     let idade = hoje.getFullYear() - dataNasc.getFullYear();
     const m = hoje.getMonth() - dataNasc.getMonth();
-
     if (m < 0 || (m === 0 && hoje.getDate() < dataNasc.getDate())) {
         idade--;
     }
 
-    // Encontrar o campo de idade correspondente e preencher
-    const div = input.closest('div');
-    if (div) {
-        const campoIdade = div.querySelector('.idade');
+    // Encontra o campo de idade no mesmo bloco do beneficiário
+    const wrapper = input.closest('div');
+    if (wrapper) {
+        const campoIdade = wrapper.querySelector('input.idade');
         if (campoIdade) {
             campoIdade.value = idade;
         }
