@@ -1,94 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Cotação Unimed Curitiba</title>
-  <script src="script.js" defer></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      font-size: 16px;
-    }
+    <meta charset="UTF-8">
+    <title>Cotação Unimed Curitiba</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            font-size: 17px;
+        }
 
-    label {
-      display: block;
-      margin-top: 10px;
-    }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
 
-    select, input {
-      width: 100%;
-      padding: 6px;
-      margin-top: 5px;
-      font-size: 16px;
-    }
+        select, input {
+            width: 100%;
+            padding: 6px;
+            font-size: 16px;
+            margin-top: 5px;
+        }
 
-    button {
-      margin-top: 10px;
-      padding: 10px;
-      background: #007d3c;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-      width: 100%;
-    }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background: #007d3c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
 
-    canvas {
-      display: none;
-    }
+        canvas {
+            display: none;
+        }
 
-    img {
-      margin-top: 20px;
-      border: 1px solid #ccc;
-      display: none;
-      max-width: 100%;
-      height: auto;
-    }
+        img {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            display: none;
+            max-width: 100%;
+            height: auto;
+        }
 
-    .beneficiario-box {
-      margin-bottom: 15px;
-    }
+        .beneficiario-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
 
-    .beneficiario-box .linha {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
+        .linha-beneficiario {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: flex-end;
+        }
 
-    .beneficiario-box label {
-      flex: 1;
-      min-width: 150px;
-    }
+        .linha-beneficiario label.idade {
+            width: 100px;
+        }
 
-    .idade-input {
-      background-color: #eefaf0;
-    }
-  </style>
+        .linha-beneficiario label.nascimento {
+            flex: 1;
+        }
+
+        .linha-beneficiario label.acomodacao {
+            width: 160px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 18px;
+            }
+
+            input, select {
+                font-size: 17px;
+            }
+
+            .linha-beneficiario {
+                flex-direction: column;
+            }
+
+            .linha-beneficiario label.idade,
+            .linha-beneficiario label.acomodacao {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Cotação Unimed Curitiba</h1>
+<h1>Cotação Unimed Curitiba</h1>
 
-  <form id="cotacaoForm">
+<form id="cotacaoForm">
     <label>Tipo de Plano:
-      <select id="tipoPlano"></select>
+        <select id="tipoPlano"></select>
     </label>
+
     <label>Plano:
-      <select id="plano"></select>
+        <select id="plano"></select>
     </label>
+
     <label>Coparticipação:
-      <select id="coparticipacao"></select>
+        <select id="coparticipacao"></select>
     </label>
 
     <h3>Beneficiários</h3>
     <div id="beneficiarios"></div>
+
     <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button>
     <button type="button" onclick="gerarCotacao()">Gerar Cotação</button>
-  </form>
+</form>
 
-  <canvas id="cotacaoImagem"></canvas>
-  <img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
+<canvas id="cotacaoImagem"></canvas>
+<img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
