@@ -59,13 +59,20 @@ function adicionarBeneficiario() {
     div.className = 'beneficiario-box';
 
     div.innerHTML = `
-        <div class="linha-beneficiario">
-            <label class="idade">Idade: <input type="number" class="idade-input"></label>
-            <label class="nascimento">Data de Nascimento: <input type="date" class="nascimento-input"></label>
+        <div class="linha-beneficiario" style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <label class="idade">
+                Idade:
+                <input type="number" class="idade-input" style="width: 100px; background-color: #e0f4e0; padding: 5px;">
+            </label>
+            <label class="nascimento">
+                Data de Nascimento:
+                <input type="date" class="nascimento-input" style="width: 140px; padding: 5px;">
+            </label>
         </div>
-        <div class="linha-beneficiario">
-            <label class="acomodacao">Acomodação:
-                <select class="acomodacao">
+        <div class="linha-beneficiario" style="margin-top: 5px;">
+            <label class="acomodacao">
+                Acomodação:
+                <select class="acomodacao" style="width: 160px; padding: 5px;">
                     <option>Enfermaria</option>
                     <option>Apartamento</option>
                 </select>
