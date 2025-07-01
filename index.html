@@ -1,101 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Cotação Unimed Curitiba</title>
-    <script src="script.js" defer></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            font-size: 16px;
-        }
+  <meta charset="UTF-8">
+  <title>Cotação Unimed Curitiba</title>
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      font-size: 16px;
+    }
 
-        label {
-            display: block;
-            margin-top: 10px;
-        }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
 
-        select, input {
-            width: 100%;
-            padding: 5px;
-            margin-top: 5px;
-            font-size: 16px;
-        }
+    select, input {
+      width: 100%;
+      padding: 6px;
+      margin-top: 5px;
+      font-size: 16px;
+    }
 
-        button {
-            margin-top: 10px;
-            padding: 10px;
-            background: #007d3c;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #007d3c;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
 
-        canvas {
-            display: none;
-        }
+    canvas {
+      display: none;
+    }
 
-        img {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            display: none;
-            max-width: 100%;
-            height: auto;
-        }
+    img {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      display: none;
+      max-width: 100%;
+      height: auto;
+    }
 
-        /* ✅ Ajustes para celular */
-        @media (max-width: 600px) {
-            body {
-                font-size: 18px;
-            }
+    .beneficiario-box {
+      margin-bottom: 15px;
+    }
 
-            h1 {
-                font-size: 24px;
-            }
+    .beneficiario-box .linha {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
 
-            label {
-                font-size: 18px;
-            }
+    .beneficiario-box label {
+      flex: 1;
+      min-width: 150px;
+    }
 
-            select, input, button {
-                font-size: 18px;
-            }
-        }
-    </style>
+    .idade-input {
+      background-color: #eefaf0;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Cotação Unimed Curitiba</h1>
+  <h1>Cotação Unimed Curitiba</h1>
 
-<form id="cotacaoForm">
+  <form id="cotacaoForm">
     <label>Tipo de Plano:
-        <select id="tipoPlano"></select>
+      <select id="tipoPlano"></select>
     </label>
     <label>Plano:
-        <select id="plano"></select>
+      <select id="plano"></select>
     </label>
     <label>Coparticipação:
-        <select id="coparticipacao"></select>
+      <select id="coparticipacao"></select>
     </label>
 
     <h3>Beneficiários</h3>
     <div id="beneficiarios"></div>
-    <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button><br>
-
+    <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button>
     <button type="button" onclick="gerarCotacao()">Gerar Cotação</button>
-</form>
+  </form>
 
-<canvas id="cotacaoImagem"></canvas>
-<img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
+  <canvas id="cotacaoImagem"></canvas>
+  <img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
 
-<script>
+  <script>
     document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('tipoPlano').addEventListener('change', filtrarPlanos);
-        document.getElementById('plano').addEventListener('change', filtrarCoparticipacoes);
+      document.getElementById('tipoPlano').addEventListener('change', filtrarPlanos);
+      document.getElementById('plano').addEventListener('change', filtrarCoparticipacoes);
     });
-</script>
+  </script>
 
 </body>
 </html>
