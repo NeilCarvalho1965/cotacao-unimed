@@ -56,28 +56,23 @@ function filtrarCoparticipacoes() {
 
 function adicionarBeneficiario() {
     const div = document.createElement('div');
-    div.style.marginBottom = '15px';
+    div.className = 'beneficiario-box';
+
     div.innerHTML = `
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: center; margin-bottom: 5px;">
-            <label style="flex: 1;">
-                Idade:
-                <input type="number" class="idade" style="width: 100%; padding: 5px; background-color: #eafaea;">
-            </label>
-            <label style="flex: 1;">
-                Data de Nasc.:
-                <input type="date" class="dataNascimento" style="width: 100%; padding: 5px;">
-            </label>
+        <div class="linha-beneficiario">
+            <label class="idade">Idade: <input type="number" class="idade-input"></label>
+            <label class="nascimento">Data de Nascimento: <input type="date" class="nascimento-input"></label>
         </div>
-        <div style="margin-top: 5px;">
-            <label>
-                Acomodação:
-                <select class="acomodacao" style="width: 100%; padding: 5px;">
+        <div class="linha-beneficiario">
+            <label class="acomodacao">Acomodação:
+                <select class="acomodacao">
                     <option>Enfermaria</option>
                     <option>Apartamento</option>
                 </select>
             </label>
         </div>
     `;
+
     document.getElementById('beneficiarios').appendChild(div);
 }
 
