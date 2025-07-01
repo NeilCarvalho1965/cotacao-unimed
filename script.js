@@ -240,3 +240,28 @@ function verificaQuantidade(qtdTabela, qtdGrupo) {
     }
     return parseInt(qtdTabela) === qtdGrupo;
 }
+
+
+
+function calcularIdade(input) {
+    const dataNasc = new Date(input.value);
+    const hoje = new Date();
+
+    if (isNaN(dataNasc.getTime())) return; // Se data inválida, sai
+
+    let idade = hoje.getFullYear() - dataNasc.getFullYear();
+    const m = hoje.getMonth() - dataNasc.getMonth();
+
+    if (m < 0 || (m === 0 && hoje.getDate() < dataNasc.getDate())) {
+        idade--;
+    }
+
+    // Encontrar o campo de idade correspondente e preencher
+    const div = input.closest('div');
+    if (div) {
+        const campoIdade = div.querySelector('.idade');
+        if (campoIdade) {
+            campoIdade.value = idade;
+        }
+    }
+}
