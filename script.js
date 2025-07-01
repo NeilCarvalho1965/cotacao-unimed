@@ -72,7 +72,7 @@ function adicionarBeneficiario() {
     div.innerHTML = `
         <div style="display: flex; gap: 20px; align-items: flex-end;">
             <label style="width: 120px;">Idade:
-                <input type="number" class="idade" placeholder="0" style="background-color: #f0f0f0; width: 100%;">
+                <input type="number" class="idade" placeholder="0" style="background-color: #e0f4e0; width: 100%;">
             </label>
             <label style="flex: 1;">Data Nasc.:
                 <input type="date" class="data-nascimento" onchange="calcularIdade(this)">
