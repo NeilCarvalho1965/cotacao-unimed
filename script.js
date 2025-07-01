@@ -44,7 +44,7 @@ function preencherSelect(id, valores) {
 function adicionarBeneficiario() {
     const div = document.createElement('div');
     div.innerHTML = `
-        <div style="display: flex; gap: 10px; align-items: flex-end;">
+        <div style="display: flex; gap: 20px; align-items: flex-end;">
             <label style="width: 120px;">Idade:
                 <input type="number" class="idade" placeholder="0" style="background-color: #f0f0f0; width: 100%;">
             </label>
