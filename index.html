@@ -1,132 +1,235 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Cotação Unimed Curitiba</title>
-    <script src="script.js" defer></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            font-size: 17px;
-        }
+let tabelaPrecos = [];
+let ultimaMensagem = '';
+let textoConsulta = '';
+let textoExames = '';
+let textoInternacao = '';
 
-        label {
-            display: block;
-            margin-top: 10px;
-        }
-
-        select, input {
-            width: 100%;
-            padding: 6px;
-            font-size: 16px;
-            margin-top: 5px;
-        }
-
-        button {
-            margin-top: 10px;
-            padding: 10px;
-            background: #007d3c;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            width: 100%;
-        }
-
-        canvas {
-            display: none;
-        }
-
-        img {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            display: none;
-            max-width: 100%;
-            height: auto;
-        }
-
-        .beneficiario-box {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-        }
-
-        .linha-beneficiario {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-bottom: 10px;
-            align-items: flex-end;
-        }
-
-        .linha-beneficiario label.idade {
-            width: 100px;
-        }
-
-        .linha-beneficiario label.nascimento {
-            flex: 1;
-        }
-
-        .linha-beneficiario label.acomodacao {
-            width: 160px;
-        }
-
-        @media (max-width: 600px) {
-            body {
-                font-size: 18px;
-            }
-
-            input, select {
-                font-size: 17px;
-            }
-
-            .linha-beneficiario {
-                flex-direction: column;
-            }
-
-            .linha-beneficiario label.idade,
-            .linha-beneficiario label.acomodacao {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-<body>
-
-<h1>Cotação Unimed Curitiba</h1>
-
-<form id="cotacaoForm">
-    <label>Tipo de Plano:
-        <select id="tipoPlano"></select>
-    </label>
-
-    <label>Plano:
-        <select id="plano"></select>
-    </label>
-
-    <label>Coparticipação:
-        <select id="coparticipacao"></select>
-    </label>
-
-    <h3>Beneficiários</h3>
-    <div id="beneficiarios"></div>
-
-    <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button>
-    <button type="button" onclick="gerarCotacao()">Gerar Cotação</button>
-</form>
-
-<canvas id="cotacaoImagem"></canvas>
-<img id="cotacaoImagemFinal" alt="Cotação pronta para compartilhar">
-
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('tipoPlano').addEventListener('change', filtrarPlanos);
-        document.getElementById('plano').addEventListener('change', filtrarCoparticipacoes);
+fetch('tabela_precos.csv')
+    .then(response => response.text())
+    .then(data => {
+        tabelaPrecos = parseCSV(data);
+        preencherTipoPlano();
     });
-</script>
 
-</body>
-</html>
+function parseCSV(data) {
+    const linhas = data.trim().split('\n');
+    const cabecalho = linhas.shift().split(';');
+    return linhas.map(l => {
+        const valores = l.split(';');
+        if (valores.length < cabecalho.length) return null;
+        return cabecalho.reduce((obj, key, idx) => {
+            obj[key.trim()] = valores[idx].trim();
+            return obj;
+        }, {});
+    }).filter(Boolean);
+}
+
+function preencherTipoPlano() {
+    const tipos = [...new Set(tabelaPrecos.map(l => l.tipo_plano))];
+    preencherSelect('tipoPlano', tipos);
+    filtrarPlanos();
+}
+
+function filtrarPlanos() {
+    const tipoSelecionado = document.getElementById('tipoPlano').value;
+    const planos = [
+        ...new Set(
+            tabelaPrecos
+                .filter(l => l.tipo_plano === tipoSelecionado)
+                .map(l => l.plano)
+        )
+    ];
+    preencherSelect('plano', planos);
+    filtrarCoparticipacoes();
+}
+
+function filtrarCoparticipacoes() {
+    const tipoSelecionado = document.getElementById('tipoPlano').value;
+    const planoSelecionado = document.getElementById('plano').value;
+    const coparts = [
+        ...new Set(
+            tabelaPrecos
+                .filter(l => l.tipo_plano === tipoSelecionado && l.plano === planoSelecionado)
+                .map(l => l.coparticipacao)
+        )
+    ];
+    preencherSelect('coparticipacao', coparts);
+}
+
+function preencherSelect(id, valores) {
+    const sel = document.getElementById(id);
+    sel.innerHTML = '';
+    valores.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v;
+        opt.textContent = v;
+        sel.appendChild(opt);
+    });
+}
+
+function adicionarBeneficiario() {
+    const div = document.createElement('div');
+    div.innerHTML = `
+        <label>Idade: <input type="number" class="idade"></label>
+        <label>Acomodação:
+            <select class="acomodacao">
+                <option>Enfermaria</option>
+                <option>Apartamento</option>
+            </select>
+        </label>
+    `;
+    document.getElementById('beneficiarios').appendChild(div);
+}
+
+function obterAbrangencia(plano) {
+    const abrangencias = {
+        "Flex 1": "Regional",
+        "Amigo": "Nacional",
+        "Flex Smart 1": "Regional",
+        "Pleno": "Regional"
+    };
+    return abrangencias[plano] || "Indefinida";
+}
+
+function gerarCotacao() {
+    const tipoPlano = document.getElementById('tipoPlano').value;
+    const plano = document.getElementById('plano').value;
+    const copart = document.getElementById('coparticipacao').value;
+    const abrangencia = obterAbrangencia(plano);
+
+    const infoPlano = tabelaPrecos.find(l =>
+        l.tipo_plano === tipoPlano &&
+        l.plano === plano &&
+        l.coparticipacao === copart
+    );
+
+    textoConsulta = infoPlano ? infoPlano.coparticipacao_consulta : '';
+    textoExames = infoPlano ? infoPlano.coparticipacao_exames : '';
+    textoInternacao = infoPlano ? infoPlano.internacao : '';
+
+    let beneficiarios = Array.from(document.querySelectorAll('#beneficiarios > div')).map(div => {
+        return {
+            idade: parseInt(div.querySelector('.idade').value),
+            acomodacao: div.querySelector('.acomodacao').value
+        };
+    });
+
+    beneficiarios.sort((a, b) => a.idade - b.idade);
+
+    const qtdBeneficiarios = beneficiarios.length;
+
+    let mensagem = `\n\nTipo: ${tipoPlano}\nPlano: ${plano}\nAbrangência: ${abrangencia}\nCoparticipação: ${copart}\n\nBeneficiários:\n`;
+    let total = 0;
+    let erro = false;
+
+    beneficiarios.forEach(b => {
+        let faixa = tabelaPrecos.find(l =>
+            l.tipo_plano === tipoPlano &&
+            l.plano === plano &&
+            l.coparticipacao === copart &&
+            l.acomodacao === b.acomodacao &&
+            b.idade >= parseInt(l.faixa_min) &&
+            b.idade <= parseInt(l.faixa_max) &&
+            verificaQuantidade(l.qtd_beneficiarios, qtdBeneficiarios)
+        );
+
+        if (!faixa || !faixa.valor) {
+            alert(`Não há valor cadastrado para ${b.acomodacao}, ${b.idade} anos.`);
+            erro = true;
+            return;
+        }
+
+        const valor = parseFloat(faixa.valor.replace(',', '.'));
+        if (isNaN(valor)) {
+            alert(`Valor inválido na tabela para ${b.acomodacao}, ${b.idade} anos.`);
+            erro = true;
+            return;
+        }
+
+        total += valor;
+        mensagem += `- ${b.idade} anos | ${b.acomodacao} | R$ ${valor.toFixed(2).replace('.', ',')}\n`;
+    });
+
+    if (erro) return;
+
+    mensagem += `\nValor Total: R$ ${total.toFixed(2).replace('.', ',')}`;
+    ultimaMensagem = mensagem;
+    desenharCotacao();
+}
+
+function desenharCotacao() {
+    const canvas = document.getElementById('cotacaoImagem');
+    const ctx = canvas.getContext('2d');
+
+    const lines = ultimaMensagem.split('\n');
+    const altura = 150 + lines.length * 25 + 180;
+    canvas.width = 350;
+    canvas.height = altura;
+
+    ctx.fillStyle = '#f5f5f5';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    const img = new Image();
+    img.src = 'unimed-logo.png';
+    img.onload = function () {
+        const logoWidth = 250;
+        const logoHeight = 80;
+        ctx.drawImage(img, (canvas.width - logoWidth) / 2, 10, logoWidth, logoHeight);
+
+        let y = 10 + logoHeight + 30;
+
+        ctx.fillStyle = '#007d3c';
+        ctx.font = 'bold 20px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('Proposta de Plano de Saúde', canvas.width / 2, y);
+
+        y += 20;
+
+        ctx.textAlign = 'left';
+        lines.forEach((line, idx) => {
+            ctx.font = line.startsWith('Valor Total:') ? 'bold 16px Arial' : '16px Arial';
+            ctx.fillText(line, 20, y + idx * 25);
+        });
+
+        ctx.fillStyle = '#007d3c';
+        ctx.font = '12px Arial';
+        ctx.fillText(`✅ Coparticipação na consulta: ${textoConsulta}`, 20, canvas.height - 150);
+        ctx.fillText(`✅ Nos exames: ${textoExames}`, 20, canvas.height - 135);
+        ctx.fillText(`✅ ${textoInternacao}`, 20, canvas.height - 120);
+
+        ctx.fillStyle = '#007d3c';
+        ctx.font = '11px Arial';
+        ctx.fillText('Esta cotação tem caráter estritamente informativo,', 20, canvas.height - 85);
+        ctx.fillText('apresentando estimativa dos valores praticados.', 20, canvas.height - 70);
+
+        ctx.fillStyle = '#007d3c';
+        ctx.fillRect(0, canvas.height - 50, canvas.width, 50);
+
+        ctx.fillStyle = '#fff';
+        ctx.font = 'bold 16px Arial';
+        ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 20);
+
+        const wppIcon = new Image();
+        wppIcon.src = 'whatsapp-icon.png';
+        wppIcon.onload = function () {
+            ctx.drawImage(wppIcon, canvas.width - 40, canvas.height - 45, 30, 30);
+
+            const imgElement = document.getElementById('cotacaoImagemFinal');
+            imgElement.src = canvas.toDataURL('image/png');
+            imgElement.style.display = 'block';
+        };
+    };
+}
+
+function verificaQuantidade(qtdTabela, qtdGrupo) {
+    if (qtdTabela === '999') return true;
+    if (qtdTabela.includes('+')) {
+        const base = parseInt(qtdTabela);
+        return qtdGrupo >= base;
+    }
+    if (qtdTabela.includes('-')) {
+        const [min, max] = qtdTabela.split('-').map(Number);
+        return qtdGrupo >= min && qtdGrupo <= max;
+    }
+    return parseInt(qtdTabela) === qtdGrupo;
+}
