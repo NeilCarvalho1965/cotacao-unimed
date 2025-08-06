@@ -1,0 +1,941 @@
+tipo_plano;plano;coparticipacao;abrangencia;acomodacao;faixa_min;faixa_max;qtd_beneficiarios;valor;coparticipacao_consulta;coparticipacao_exames;internacao
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;1;327,88;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;1;395,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;1;451,07;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;1;501,82;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;1;567,71;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;1;632,77;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;1;753,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;1;948,66;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;1;1203,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;1;1716,62;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;2;295,09;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;2;356,26;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;2;405,96;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;2;451,63;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;2;510,93;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;2;569,48;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;2;678,02;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;2;853,76;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;2;1082,99;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;2;1544,89;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;3;278,7;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;3;336,47;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;3;383,41;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;3;426,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;3;482,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;3;537,84;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;3;640,35;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;3;806,33;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;3;1022,83;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;3;1459,07;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;0;18;4+;262,3;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;19;23;4+;316,67;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;24;28;4+;360,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;29;33;4+;401,45;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;34;38;4+;454,16;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;39;43;4+;506,21;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;44;48;4+;602,69;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;49;53;4+;758,91;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;54;58;4+;962,68;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Enfermaria;59;120;4+;1373,26;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;1;489,53;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;1;557,97;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;1;611,59;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;1;658,93;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;1;722,32;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;1;896,76;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;1;1037,28;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;1;1366,41;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;1;1742,17;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;1;2187,12;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;2;440,58;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;2;502,17;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;2;550,43;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;2;593,03;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;2;650,08;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;2;807,07;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;2;933,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;2;1229,75;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;2;1567,93;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;2;1968,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;3;416,1;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;3;474,27;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;3;519,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;3;560,09;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;3;613,97;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;3;762,24;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;3;881,68;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;3;1161,44;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;3;1480,84;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;3;1859,05;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;0;18;4+;391,62;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;19;23;4+;446,37;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;24;28;4+;489,27;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;29;33;4+;527,14;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;34;38;4+;577,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;39;43;4+;717,4;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;44;48;4+;829,82;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;49;53;4+;1093,12;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;54;58;4+;1393,73;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;50%;Regional;Apartamento;59;120;4+;1749,69;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;1;432,56;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;1;522,23;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;1;595,08;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;1;662,03;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;1;748,95;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;1;834,78;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;1;993,89;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;1;1251,51;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;1;1587,54;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;1;2264,63;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;2;389,3;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;2;470;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;2;535,57;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;2;595,82;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;2;674,05;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;2;751,3;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;2;894,5;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;2;1126,35;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;2;1428,77;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;2;2038,14;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;3;367,68;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;3;443,9;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;3;505,82;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;3;562,72;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;3;636,61;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;3;709,57;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;3;844,81;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;3;1063,78;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;3;1349,4;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;3;1924,92;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;0;18;4+;346,05;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;19;23;4+;417,79;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;24;28;4+;476,07;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;29;33;4+;529,63;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;34;38;4+;599,17;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;39;43;4+;667,83;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;44;48;4+;795,12;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;49;53;4+;1001,22;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;54;58;4+;1270,05;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Enfermaria;59;120;4+;1811,73;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;1;655,77;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;1;747,45;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;1;819,28;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;1;882,69;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;1;967,6;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;1;1201,28;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;1;1389,52;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;1;1830,41;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;1;2333,77;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;1;2929,81;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;2;590,19;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;2;672,7;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;2;737,35;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;2;794,42;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;2;870,84;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;2;1081,15;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;2;1250,57;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;2;1647,38;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;2;2100,41;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;2;2636,85;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;3;557,4;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;3;635,32;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;3;696,37;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;3;750,27;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;3;822,45;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;3;1021,07;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;3;1181,07;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;3;1555,82;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;3;1983,67;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;3;2490,3;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;0;18;4+;524,62;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;19;23;4+;597,96;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;24;28;4+;655,42;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;29;33;4+;706,15;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;34;38;4+;774,08;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;39;43;4+;961,02;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;44;48;4+;1111,61;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;49;53;4+;1464,32;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;54;58;4+;1867,01;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex 1;30%;Regional;Apartamento;59;120;4+;2343,84;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;1;431,92;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;1;469,93;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;1;542,63;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;1;610,13;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;1;701,34;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;1;790,55;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;1;979,25;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;1;1227,49;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;1;1538,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;1;1886,4;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;2;388,73;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;2;422,94;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;2;488,37;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;2;549,12;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;2;631,21;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;2;711,5;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;2;881,34;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;2;1104,76;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;2;1384,71;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;2;1697,79;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;3;367,13;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;3;399,44;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;3;461,23;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;3;518,61;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;3;596,14;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;3;671,97;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;3;832,37;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;3;1043,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;3;1307,77;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;3;1603,46;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;0;18;4+;345,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;19;23;4+;375,95;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;24;28;4+;434,11;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;29;33;4+;488,11;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;34;38;4+;561,08;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;39;43;4+;632,45;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;44;48;4+;783,42;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;49;53;4+;982,02;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;54;58;4+;1230,86;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Enfermaria;59;120;4+;1509,16;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;1;580,5;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;1;631,58;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;1;705,66;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;1;772,2;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;1;863,32;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;1;1041,94;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;1;1215,74;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;1;1618,15;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;1;2049,23;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;1;2535,1;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;2;522,45;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;2;568,43;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;2;635,11;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;2;695;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;2;777,01;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;2;937,77;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;2;1094,19;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;2;1456,37;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;2;1844,35;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;2;2281,65;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;3;493,43;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;3;536,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;3;599,82;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;3;656,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;3;733,83;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;3;885,66;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;3;1033,39;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;3;1375,44;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;3;1741,86;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;3;2154,86;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;0;18;4+;464,4;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;19;23;4+;505,27;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;24;28;4+;564,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;29;33;4+;617,78;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;34;38;4+;690,68;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;39;43;4+;833,58;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;44;48;4+;972,62;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;49;53;4+;1294,56;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;54;58;4+;1639,43;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Amigo;50%;Nacional;Apartamento;59;120;4+;2028,14;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;1;288,67;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;1;348,51;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;1;397,13;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;1;441,81;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;1;499,82;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;1;557,1;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;1;663,28;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;1;835,2;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;1;1059,45;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;1;1511,31;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;2;259,8;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;2;313,66;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;2;357,42;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;2;397,63;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;2;449,84;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;2;501,39;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;2;596,95;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;2;751,68;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;2;953,51;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;2;1360,18;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;3;245,37;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;3;296,24;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;3;337,57;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;3;375,55;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;3;424,86;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;3;473,55;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;3;563,81;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;3;709,95;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;3;900,57;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;3;1284,66;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;0;18;4+;230,94;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;19;23;4+;278,81;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;24;28;4+;317,7;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;29;33;4+;353,44;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;34;38;4+;399,85;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;39;43;4+;445,67;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;44;48;4+;530,61;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;49;53;4+;668,14;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;54;58;4+;847,54;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Enfermaria;59;120;4+;1209,02;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;1;430,97;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;1;491,22;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;1;538,43;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;1;580,1;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;1;635,91;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;1;789,48;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;1;913,19;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;1;1202,95;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;1;1533,76;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;1;1925,48;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;2;387,87;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;2;442,09;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;2;484,57;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;2;522,08;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;2;572,3;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;2;710,51;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;2;821,85;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;2;1082,62;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;2;1380,34;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;2;1732,88;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;3;366,32;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;3;417,53;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;3;457,65;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;3;493,07;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;3;540,5;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;3;671,03;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;3;776,18;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;3;1022,46;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;3;1303,64;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;3;1636,59;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;0;18;4+;344,78;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;19;23;4+;392,98;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;24;28;4+;430,75;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;29;33;4+;464,09;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;34;38;4+;508,74;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;39;43;4+;631,6;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;44;48;4+;730,57;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;49;53;4+;962,38;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;54;58;4+;1227,03;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Flex Smart 1;50%;Regional;Apartamento;59;120;4+;1540,41;R$ 67,50;R$1,00 até no máximo R$220,00;Consultar diária de internação
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;1;302,65;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;1;365,39;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;1;416,36;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;1;463,2;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;1;524,02;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;1;584,07;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;1;695,39;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;1;875,64;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;1;1110,75;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;1;1584,48;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;2;272,39;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;2;328,86;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;2;374,74;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;2;416,9;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;2;471,64;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;2;525,69;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;2;625,89;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;2;788,12;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;2;999,73;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;2;1426,11;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;3;257,25;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;3;310,58;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;3;353,91;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;3;393,72;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;3;445,42;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;3;496,47;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;3;591,1;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;3;744,31;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;3;944,16;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;3;1346,84;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;0;18;4+;242,12;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;19;23;4+;292,31;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;24;28;4+;333,09;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;29;33;4+;370,56;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;34;38;4+;419,21;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;39;43;4+;467,25;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;44;48;4+;556,31;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;49;53;4+;700,51;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;54;58;4+;888,6;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Enfermaria;59;120;4+;1267,59;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;1;458,83;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;1;522,97;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;1;573,23;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;1;617,6;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;1;677,01;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;1;840,51;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;1;972,22;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;1;1280,71;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;1;1632,91;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;1;2049,96;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;2;412,95;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;2;470,68;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;2;515,91;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;2;555,84;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;2;609,31;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;2;756,46;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;2;875;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;2;1152,64;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;2;1469,62;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;2;1844,96;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;3;390,01;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;3;444,53;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;3;487,25;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;3;524,96;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;3;575,46;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;3;714,43;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;3;826,38;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;3;1088,59;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;3;1387,95;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;3;1742,43;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;0;18;4+;367,06;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;19;23;4+;418,37;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;24;28;4+;458,58;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;29;33;4+;494,07;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;34;38;4+;541,6;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;39;43;4+;672,4;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;44;48;4+;777,77;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;49;53;4+;1024,56;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;54;58;4+;1306,31;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;30%;Regional;Apartamento;59;120;4+;1639,94;R$ 40,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;0;18;1;199,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;19;23;1;262,71;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;24;28;1;299,36;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;29;33;1;333,05;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;34;38;1;376,79;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;39;43;1;419,97;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;44;48;1;500,02;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;49;53;1;629,6;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;54;58;1;798,67;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;59;120;1;1139,3;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;0;18;2;179,73;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;19;23;2;236,43;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;24;28;2;269,41;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;29;33;2;299,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;34;38;2;339,07;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;39;43;2;377,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;44;48;2;449,95;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;49;53;2;566,58;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;54;58;2;718,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;59;120;2;1025,25;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;0;18;3;167,76;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;19;23;3;220,67;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;24;28;3;251,46;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;29;33;3;279,74;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;34;38;3;316,47;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;39;43;3;352,76;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;44;48;3;419,99;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;49;53;3;528,85;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;54;58;3;670,83;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;59;120;3;956,96;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;0;18;4+;155,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;19;23;4+;204,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;24;28;4+;233,5;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;29;33;4+;259,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;34;38;4+;293,88;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;39;43;4+;327,57;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;44;48;4+;389,97;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;49;53;4+;491,08;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;54;58;4+;622,95;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Enfermaria;59;120;4+;888,63;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;0;18;1;251,45;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;19;23;1;370,29;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;24;28;1;405,88;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;29;33;1;437,29;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;34;38;1;479,37;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;39;43;1;595,12;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;44;48;1;688,37;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;49;53;1;906,8;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;54;58;1;1156,16;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;59;120;1;1451,45;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;0;18;2;226,31;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;19;23;2;333,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;24;28;2;365,28;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;29;33;2;393,56;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;34;38;2;431,41;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;39;43;2;535,61;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;44;48;2;619,55;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;49;53;2;816,11;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;54;58;2;1040,55;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;59;120;2;1306,3;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;0;18;3;211,22;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;19;23;3;311,05;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;24;28;3;340,93;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;29;33;3;367,31;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;34;38;3;402,66;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;39;43;3;499,91;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;44;48;3;578,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;49;53;3;761,71;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;54;58;3;971,19;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;59;120;3;1219,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;0;18;4+;196,13;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;19;23;4+;288,82;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;24;28;4+;316,58;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;29;33;4+;341,08;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;34;38;4+;373,9;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;39;43;4+;464,19;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;44;48;4+;536,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;49;53;4+;707,28;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;54;58;4+;901,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Genesis;Flex 1;50%;Regional;Apartamento;59;120;4+;1132,1;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;0;18;1;199,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;19;23;1;262,71;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;24;28;1;299,36;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;29;33;1;333,05;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;34;38;1;376,79;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;39;43;1;419,97;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;44;48;1;500,02;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;49;53;1;629,6;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;54;58;1;798,67;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;59;120;1;1139,3;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;0;18;2;179,73;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;19;23;2;236,43;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;24;28;2;269,41;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;29;33;2;299,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;34;38;2;339,07;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;39;43;2;377,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;44;48;2;449,95;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;49;53;2;566,58;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;54;58;2;718,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;59;120;2;1025,25;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;0;18;3;167,76;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;19;23;3;220,67;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;24;28;3;251,46;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;29;33;3;279,74;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;34;38;3;316,47;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;39;43;3;352,76;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;44;48;3;419,99;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;49;53;3;528,85;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;54;58;3;670,83;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;59;120;3;956,96;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;0;18;4+;155,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;19;23;4+;204,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;24;28;4+;233,5;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;29;33;4+;259,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;34;38;4+;293,88;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;39;43;4+;327,57;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;44;48;4+;389,97;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;49;53;4+;491,08;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;54;58;4+;622,95;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Enfermaria;59;120;4+;888,63;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;0;18;1;251,45;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;19;23;1;370,29;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;24;28;1;405,88;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;29;33;1;437,29;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;34;38;1;479,37;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;39;43;1;595,12;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;44;48;1;688,37;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;49;53;1;906,8;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;54;58;1;1156,16;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;59;120;1;1451,45;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;0;18;2;226,31;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;19;23;2;333,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;24;28;2;365,28;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;29;33;2;393,56;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;34;38;2;431,41;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;39;43;2;535,61;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;44;48;2;619,55;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;49;53;2;816,11;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;54;58;2;1040,55;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;59;120;2;1306,3;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;0;18;3;211,22;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;19;23;3;311,05;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;24;28;3;340,93;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;29;33;3;367,31;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;34;38;3;402,66;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;39;43;3;499,91;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;44;48;3;578,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;49;53;3;761,71;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;54;58;3;971,19;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;59;120;3;1219,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;0;18;4+;196,13;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;19;23;4+;288,82;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;24;28;4+;316,58;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;29;33;4+;341,08;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;34;38;4+;373,9;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;39;43;4+;464,19;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;44;48;4+;536,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;49;53;4+;707,28;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;54;58;4+;901,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - ASPP;Flex 1;50%;Regional;Apartamento;59;120;4+;1132,1;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;0;18;1;199,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;19;23;1;262,71;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;24;28;1;299,36;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;29;33;1;333,05;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;34;38;1;376,79;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;39;43;1;419,97;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;44;48;1;500,02;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;49;53;1;629,6;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;54;58;1;798,67;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;59;120;1;1139,3;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;0;18;2;179,73;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;19;23;2;236,43;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;24;28;2;269,41;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;29;33;2;299,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;34;38;2;339,07;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;39;43;2;377,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;44;48;2;449,95;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;49;53;2;566,58;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;54;58;2;718,72;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;59;120;2;1025,25;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;0;18;3;167,76;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;19;23;3;220,67;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;24;28;3;251,46;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;29;33;3;279,74;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;34;38;3;316,47;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;39;43;3;352,76;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;44;48;3;419,99;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;49;53;3;528,85;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;54;58;3;670,83;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;59;120;3;956,96;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;0;18;4+;155,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;19;23;4+;204,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;24;28;4+;233,5;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;29;33;4+;259,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;34;38;4+;293,88;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;39;43;4+;327,57;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;44;48;4+;389,97;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;49;53;4+;491,08;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;54;58;4+;622,95;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Enfermaria;59;120;4+;888,63;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;0;18;1;251,45;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;19;23;1;370,29;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;24;28;1;405,88;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;29;33;1;437,29;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;34;38;1;479,37;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;39;43;1;595,12;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;44;48;1;688,37;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;49;53;1;906,8;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;54;58;1;1156,16;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;59;120;1;1451,45;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;0;18;2;226,31;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;19;23;2;333,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;24;28;2;365,28;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;29;33;2;393,56;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;34;38;2;431,41;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;39;43;2;535,61;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;44;48;2;619,55;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;49;53;2;816,11;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;54;58;2;1040,55;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;59;120;2;1306,3;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;0;18;3;211,22;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;19;23;3;311,05;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;24;28;3;340,93;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;29;33;3;367,31;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;34;38;3;402,66;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;39;43;3;499,91;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;44;48;3;578,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;49;53;3;761,71;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;54;58;3;971,19;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;59;120;3;1219,24;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;0;18;4+;196,13;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;19;23;4+;288,82;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;24;28;4+;316,58;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;29;33;4+;341,08;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;34;38;4+;373,9;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;39;43;4+;464,19;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;44;48;4+;536,92;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;49;53;4+;707,28;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;54;58;4+;901,78;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Flex 1;50%;Regional;Apartamento;59;120;4+;1132,1;R$ 62,50;R$1,00 até no máximo R$108,16;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;0;18;999;227,8;R$ 31,25;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;19;23;999;261,68;R$ 31,25;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;24;28;999;274,77;R$ 31,26;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;29;33;999;356,82;R$ 31,26;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;34;38;999;374,65;R$ 31,27;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;39;43;999;429,53;R$ 31,27;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;44;48;999;599,81;R$ 31,28;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;49;53;999;760,55;R$ 31,28;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;54;58;999;836,57;R$ 31,29;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Enfermaria;59;120;999;1364,52;R$ 31,29;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;0;18;999;259,15;R$ 31,30;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;19;23;999;316,27;R$ 31,30;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;24;28;999;332,06;R$ 31,31;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;29;33;999;476,64;R$ 31,31;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;34;38;999;500,55;R$ 31,32;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;39;43;999;686,91;R$ 31,32;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;44;48;999;721,23;R$ 31,33;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;49;53;999;986,94;R$ 31,33;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;54;58;999;1065,89;R$ 31,34;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Adesão - Simepar;Amigo;25%;Nacional;Apartamento;59;120;999;1552,44;R$ 31,34;R$1,00 até no máximo R$248,77;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;0;18;304;208,84;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;19;23;304;238,92;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;24;28;304;250,5;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;29;33;304;323,31;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;34;38;304;339,12;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;39;43;304;388,95;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;44;48;304;537,96;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;49;53;304;681,36;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;54;58;304;748,8;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;59;120;304;1217,01;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;0;18;304;254,82;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;19;23;304;309,42;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;24;28;304;324,53;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;29;33;304;462,87;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;34;38;304;485,67;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;39;43;304;664;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;44;48;304;696,87;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;49;53;304;950,98;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;54;58;304;1026,5;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;59;120;304;1491,94;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;0;18;304;233,44;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;19;23;304;267,15;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;24;28;304;280,16;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;29;33;304;361,77;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;34;38;304;379,52;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;39;43;304;435,44;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;44;48;304;602,54;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;49;53;304;763,37;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;54;58;304;838,99;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;59;120;304;1364,15;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;0;18;304;284,96;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;19;23;304;346,2;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;24;28;304;363,17;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;29;33;304;518,3;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;34;38;304;543,9;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;39;43;304;743,94;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;44;48;304;780,77;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;49;53;304;1065,81;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;54;58;304;1150,52;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;59;120;304;1672,59;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;0;18;304;242,78;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;19;23;304;277,92;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;24;28;304;291,46;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;29;33;304;376,48;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;34;38;304;394,96;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;39;43;304;453,18;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;44;48;304;627,23;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;49;53;304;794,7;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;54;58;304;873,47;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;59;120;304;1420,39;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;0;18;304;296,5;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;19;23;304;360,27;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;24;28;304;377,95;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;29;33;304;539,55;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;34;38;304;566,18;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;39;43;304;774,53;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;44;48;304;812,92;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;49;53;304;1109,75;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;54;58;304;1197,96;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;59;120;304;1741,69;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;0;18;304;315,87;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;19;23;304;361,81;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;24;28;304;379,56;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;29;33;304;490,82;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;34;38;304;515,03;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;39;43;304;590,28;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;44;48;304;820,36;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;49;53;304;1038,29;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;54;58;304;1141,42;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;59;120;304;1857,44;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;0;18;304;418,88;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;19;23;304;509,55;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;24;28;304;534,7;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;29;33;304;764,59;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;34;38;304;802,46;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;39;43;304;1098,81;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;44;48;304;1153,38;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;49;53;304;1575,64;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;54;58;304;1701,17;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;59;120;304;2474,6;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;0;18;304;242,05;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;19;23;304;277,03;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;24;28;304;290,56;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;29;33;304;375,28;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;34;38;304;393,7;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;39;43;304;451;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;44;48;304;626,19;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;49;53;304;792,09;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;54;58;304;870,6;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;59;120;304;1415,62;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;0;18;304;320,42;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;19;23;304;389,48;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;24;28;304;408,59;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;29;33;304;583,55;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;34;38;304;612,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;39;43;304;837,92;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;44;48;304;879,45;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;49;53;304;1200,83;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;54;58;304;1296,34;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;59;120;304;1884,96;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;0;18;5+;208,84;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;19;23;5+;238,92;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;24;28;5+;250,5;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;29;33;5+;323,31;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;34;38;5+;339,12;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;39;43;5+;388,95;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;44;48;5+;537,96;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;49;53;5+;681,36;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;54;58;5+;748,8;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Enfermaria;59;120;5+;1217,01;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;0;18;5+;254,82;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;19;23;5+;309,42;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;24;28;5+;324,53;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;29;33;5+;462,87;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;34;38;5+;485,67;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;39;43;5+;664;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;44;48;5+;696,87;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;49;53;5+;950,98;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;54;58;5+;1026,5;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;50%;Regional;Apartamento;59;120;5+;1491,94;R$ 67,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;0;18;5+;233,44;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;19;23;5+;267,15;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;24;28;5+;280,16;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;29;33;5+;361,77;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;34;38;5+;379,52;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;39;43;5+;435,44;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;44;48;5+;602,54;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;49;53;5+;763,37;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;54;58;5+;838,99;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Enfermaria;59;120;5+;1364,15;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;0;18;5+;284,96;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;19;23;5+;346,2;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;24;28;5+;363,17;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;29;33;5+;518,3;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;34;38;5+;543,9;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;39;43;5+;743,94;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;44;48;5+;780,77;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;49;53;5+;1065,81;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;54;58;5+;1150,52;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;30%;Regional;Apartamento;59;120;5+;1672,59;R$ 40,50;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;0;18;5+;242,78;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;19;23;5+;277,92;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;24;28;5+;291,46;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;29;33;5+;376,48;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;34;38;5+;394,96;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;39;43;5+;453,18;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;44;48;5+;627,23;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;49;53;5+;794,7;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;54;58;5+;873,47;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Enfermaria;59;120;5+;1420,39;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;0;18;5+;296,5;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;19;23;5+;360,27;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;24;28;5+;377,95;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;29;33;5+;539,55;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;34;38;5+;566,18;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;39;43;5+;774,53;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;44;48;5+;812,92;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;49;53;5+;1109,75;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;54;58;5+;1197,96;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Flex 1;20%;Regional;Apartamento;59;120;5+;1741,69;R$ 27,00;R$1,00 até no máximo R$90,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;0;18;5+;300,42;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;19;23;5+;344,06;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;24;28;5+;360,93;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;29;33;5+;466,62;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;34;38;5+;489,62;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;39;43;5+;561,11;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;44;48;5+;779,69;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;49;53;5+;986,72;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;54;58;5+;1084,69;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Enfermaria;59;120;5+;1764,91;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;0;18;5+;398,28;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;19;23;5+;484,42;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;24;28;5+;508,31;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;29;33;5+;726,7;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;34;38;5+;762,68;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;39;43;5+;1044,21;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;44;48;5+;1096,06;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;49;53;5+;1497,2;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;54;58;5+;1616,46;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;25%;Nacional;Apartamento;59;120;5+;2351,21;R$ 33,75;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;0;18;5+;230,29;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;19;23;5+;263,52;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;24;28;5+;276,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;29;33;5+;356,86;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;34;38;5+;374,36;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;39;43;5+;428,79;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;44;48;5+;595,22;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;49;53;5+;752,83;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;54;58;5+;827,41;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Enfermaria;59;120;5+;1345,18;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;0;18;5+;304,74;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;19;23;5+;370,35;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;24;28;5+;388,5;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;29;33;5+;554,72;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;34;38;5+;582,11;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;39;43;5+;796,37;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;44;48;5+;835,82;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;49;53;5+;1141,13;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;54;58;5+;1231,87;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Jurídica - PME;Amigo;50%;Nacional;Apartamento;59;120;5+;1791,06;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;0;18;1;229,42;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;19;23;1;276,98;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;24;28;1;315,62;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;29;33;1;351,13;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;34;38;1;397,23;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;39;43;1;442,75;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;44;48;1;527,14;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;49;53;1;663,77;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;54;58;1;841,99;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;59;120;1;1201,1;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;0;18;2;206,48;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;19;23;2;249,28;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;24;28;2;284,05;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;29;33;2;316,01;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;34;38;2;357,5;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;39;43;2;398,47;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;44;48;2;474,42;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;49;53;2;597,39;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;54;58;2;757,79;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;59;120;2;1080,99;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;0;18;3;195,01;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;19;23;3;235,44;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;24;28;3;268,28;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;29;33;3;298,46;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;34;38;3;337,65;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;39;43;3;376,34;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;44;48;3;448,07;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;49;53;3;564,21;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;54;58;3;715,7;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;59;120;3;1020,95;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;0;18;4+;183,54;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;19;23;4+;221,59;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;24;28;4+;252,5;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;29;33;4+;280,91;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;34;38;4+;317,79;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;39;43;4+;354,21;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;44;48;4+;421,72;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;49;53;4+;531,03;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;54;58;4+;673,61;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Enfermaria;59;120;4+;960,9;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;0;18;1;342,53;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;19;23;1;390,42;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;24;28;1;427,94;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;29;33;1;461,06;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;34;38;1;505,41;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;39;43;1;627,47;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;44;48;1;725,79;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;49;53;1;956,08;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;54;58;1;1219;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;59;120;1;1530,33;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;0;18;2;308,28;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;19;23;2;351,38;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;24;28;2;385,15;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;29;33;2;414,96;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;34;38;2;454,88;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;39;43;2;564,73;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;44;48;2;653,22;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;49;53;2;860,49;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;54;58;2;1097,12;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;59;120;2;1377,32;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;0;18;3;291,15;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;19;23;3;331,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;24;28;3;363,74;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;29;33;3;391,89;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;34;38;3;429,59;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;39;43;3;533,34;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;44;48;3;616,91;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;49;53;3;812,66;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;54;58;3;1036,14;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;59;120;3;1300,77;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;0;18;4+;274,02;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;19;23;4+;312,33;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;24;28;4+;342,34;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;29;33;4+;368,84;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;34;38;4+;404,32;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;39;43;4+;501,96;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;44;48;4+;580,62;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;49;53;4+;764,85;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;54;58;4+;975,18;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
+Pessoa Física - PF;Pleno;50%;Regional;Apartamento;59;120;4+;1224,24;R$ 67,50;R$1,00 até no máximo R$220,00;Internado tudo coberto
