@@ -214,7 +214,7 @@ function desenharCotacao() {
 
         ctx.fillStyle = '#fff';
         ctx.font = 'bold 16px Arial';
-        ctx.fillText('Sandra Regina – (41) 99981-7997', 20, canvas.height - 20);
+        ctx.fillText('Sandra Regina – (41) 99857-5313', 20, canvas.height - 20); // ✅ novo número aqui
 
         const wppIcon = new Image();
         wppIcon.src = 'whatsapp-icon.png';
@@ -230,18 +230,23 @@ function desenharCotacao() {
 
 function verificaQuantidade(qtdTabela, qtdGrupo) {
     if (qtdTabela === '999') return true;
+
+    if (qtdTabela === '304') {
+        return qtdGrupo === 3 || qtdGrupo === 4;
+    }
+
     if (qtdTabela.includes('+')) {
         const base = parseInt(qtdTabela);
         return qtdGrupo >= base;
     }
+
     if (qtdTabela.includes('-')) {
         const [min, max] = qtdTabela.split('-').map(Number);
         return qtdGrupo >= min && qtdGrupo <= max;
     }
+
     return parseInt(qtdTabela) === qtdGrupo;
 }
-
-
 
 function calcularIdade(input) {
     const dataNasc = new Date(input.value);
@@ -255,7 +260,6 @@ function calcularIdade(input) {
         idade--;
     }
 
-    // Encontra o campo de idade no mesmo bloco do beneficiário
     const wrapper = input.closest('div');
     if (wrapper) {
         const campoIdade = wrapper.querySelector('input.idade');
