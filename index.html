@@ -8,7 +8,6 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            font-size: 16px;
         }
 
         label {
@@ -17,20 +16,17 @@
         }
 
         select, input {
-            width: 100%;
             padding: 5px;
             margin-top: 5px;
-            font-size: 16px;
         }
 
         button {
             margin-top: 10px;
-            padding: 10px;
+            padding: 10px 20px;
             background: #007d3c;
             color: white;
             border: none;
             cursor: pointer;
-            font-size: 16px;
         }
 
         canvas {
@@ -45,22 +41,33 @@
             height: auto;
         }
 
-        /* ✅ Ajustes para celular */
+        .beneficiario-linha {
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+        }
+
+        .idade-input {
+            background-color: #e0f4e0;
+            width: 100px;
+        }
+
+        .data-input {
+            width: 140px;
+        }
+
+        .acomodacao-select {
+            width: 100%;
+        }
+
         @media (max-width: 600px) {
-            body {
-                font-size: 18px;
+            .beneficiario-linha {
+                flex-direction: column;
+                align-items: stretch;
             }
 
-            h1 {
-                font-size: 24px;
-            }
-
-            label {
-                font-size: 18px;
-            }
-
-            select, input, button {
-                font-size: 18px;
+            .idade-input, .data-input {
+                width: 100%;
             }
         }
     </style>
@@ -82,10 +89,9 @@
 
     <h3>Beneficiários</h3>
     <div id="beneficiarios"></div>
-<button type="button" onclick="adicionarBeneficiario()" style="width: 200px;">Adicionar Beneficiário</button><br>
+    <button type="button" onclick="adicionarBeneficiario()">Adicionar Beneficiário</button><br>
 
-<button type="button" onclick="gerarCotacao()" style="width: 200px;">Gerar Cotação</button>
-
+    <button type="button" onclick="gerarCotacao()">Gerar Cotação</button>
 </form>
 
 <canvas id="cotacaoImagem"></canvas>
@@ -95,6 +101,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('tipoPlano').addEventListener('change', filtrarPlanos);
         document.getElementById('plano').addEventListener('change', filtrarCoparticipacoes);
+        filtrarPlanos(); // inicializar filtros no carregamento
     });
 </script>
 
